@@ -1,0 +1,3501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raml version="2.1" xmlns="raml21.xsd">
+<cmData type="actual" name="ActualConfiguration" id="1">
+<header>
+<log dateTime="2019-04-01T01:28:15.980+02:00" action="export"/>
+<log dateTime="2019-04-01T01:28:15.980+02:00" action="ConfigurationHeaderBackup.id">1</log>
+<log dateTime="2019-04-01T01:28:15.980+02:00" action="ConfigurationHeaderBackup.name">ActualConfiguration</log>
+</header>
+<managedObject class="NOKLTE:MRBTS" version="FL16A" distName="PLMN-PLMN/MRBTS-33162" id="786621" vendor="NSN" timeStamp="2019-04-01T00:51:02.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+<p name="$maintenanceRegionId">LTE</p>
+<p name="$maintenanceRegionCId">MRC</p>
+</extension>
+<p name="name">LALXN33162</p>
+<p name="actAldSwUpdate">0</p>
+<p name="actEthernetSec">0</p>
+<p name="actMhaAutoConfig">0</p>
+<p name="actRemoteRfDiag">1</p>
+<p name="actTransportConfigFallback">0</p>
+<p name="altitude">0</p>
+<p name="configDataRevisionNumber">7601</p>
+<p name="latitude">0</p>
+<p name="longitude">0</p>
+<p name="resetToTestDedicated">0</p>
+<p name="sharedRfTechnologies">0</p>
+<p name="timeZone">377</p>
+<p name="validatePlanAgainstDetectedHW">0</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-1" id="793746" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">0</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">1</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">1</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-10" id="793721" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">3</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">0</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">2</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-11" id="793723" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">4</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">1</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">2</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-12" id="793726" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">5</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">0</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">2</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-2" id="793745" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">1</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">0</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">1</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-3" id="793666" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">2</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">1</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">1</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-4" id="793664" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">3</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">0</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">1</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-5" id="793663" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">4</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">1</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">1</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-6" id="793661" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">5</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">0</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">1</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-7" id="793671" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">1</p>
+<p name="antId">0</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">1</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">2</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-8" id="793669" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">1</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">0</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">2</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:ANTL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/ANTL-9" id="793668" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="additionalRxGain">0</p>
+<p name="alDcVoltageEnabled">0</p>
+<p name="antId">2</p>
+<p name="antennaRoundTripDelay">45</p>
+<p name="antennaTotalLoss">-30</p>
+<p name="communication3gppEnabled">1</p>
+<p name="feederVoltage">-1</p>
+<p name="rModId">2</p>
+<p name="ulDelay">0</p>
+<p name="usedInUtran">0</p>
+<p name="vswrMajorAlarm">26</p>
+<p name="vswrMinorAlarm">15</p>
+</managedObject>
+<managedObject class="NOKLTE:BTSSCL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/BTSSCL-1" id="793715" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="actDtPim">0</p>
+<p name="actPimTesting">0</p>
+<p name="actPowerMeter">0</p>
+<p name="actRfiTesting">0</p>
+<p name="actRxMonitoring">1</p>
+<p name="activeSWReleaseVersion">FL16A_ENB_0000_006051_000000</p>
+<p name="btsId">33162</p>
+<p name="btsName">LALXN33162</p>
+<p name="btsSyncMode">0</p>
+<p name="delayCompPerEnbEnabled">1</p>
+<p name="ext1ppsClkOutOn">0</p>
+<p name="ext2M048ClkOutOn">0</p>
+<p name="holdOverModeUsed">0</p>
+<p name="ppsTimingOffset">0</p>
+<p name="rfSharingEnabled">0</p>
+<p name="syncPropagationEnabled">0</p>
+</managedObject>
+<managedObject class="NOKLTE:SMOD" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/SMOD-1" id="793767" vendor="NSN" timeStamp="2019-03-26T09:11:39.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="climateControlProfiling">0</p>
+<list name="coreModuleSyncInputList">
+<item>
+<p name="syncInputPrio">1</p>
+<p name="syncInputType">5</p>
+</item>
+</list>
+<list name="extAlList">
+<item>
+<p name="cancelDelay">0</p>
+<p name="descr">Main Power Failure</p>
+<p name="id">1</p>
+<p name="inUse">1</p>
+<p name="polarity">1</p>
+<p name="severity">3</p>
+<p name="startDelay">0</p>
+</item>
+<item>
+<p name="cancelDelay">0</p>
+<p name="descr">Battery H.T</p>
+<p name="id">4</p>
+<p name="inUse">1</p>
+<p name="polarity">1</p>
+<p name="severity">1</p>
+<p name="startDelay">0</p>
+</item>
+<item>
+<p name="cancelDelay">0</p>
+<p name="descr">Rectfier major alarm</p>
+<p name="id">3</p>
+<p name="inUse">1</p>
+<p name="polarity">1</p>
+<p name="severity">1</p>
+<p name="startDelay">0</p>
+</item>
+<item>
+<p name="cancelDelay">0</p>
+<p name="descr">Battery cabinet door</p>
+<p name="id">5</p>
+<p name="inUse">1</p>
+<p name="polarity">1</p>
+<p name="severity">1</p>
+<p name="startDelay">0</p>
+</item>
+<item>
+<p name="cancelDelay">0</p>
+<p name="descr">Rectfier failure</p>
+<p name="id">2</p>
+<p name="inUse">1</p>
+<p name="polarity">1</p>
+<p name="severity">2</p>
+<p name="startDelay">0</p>
+</item>
+<item>
+<p name="cancelDelay">0</p>
+<p name="descr">fan alarm</p>
+<p name="id">6</p>
+<p name="inUse">1</p>
+<p name="polarity">1</p>
+<p name="severity">2</p>
+<p name="startDelay">0</p>
+</item>
+</list>
+<p name="moduleLocation">ALEX</p>
+<p name="ownedByThisBts">1</p>
+<p name="prodCode">472181A</p>
+<p name="prodCodePlanned">472181A</p>
+<p name="productName">Flexi System Module Outdoor FSMF</p>
+<p name="serNum">AS181816017</p>
+<p name="syncMaster">1</p>
+<p name="technology">2</p>
+</managedObject>
+<managedObject class="NOKLTE:RMOD" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RMOD-1" id="792746" vendor="NSN" timeStamp="2019-03-22T09:11:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<list name="activeCellsList">
+<p>5</p>
+<p>4</p>
+<p>6</p>
+</list>
+<p name="climateControlProfiling">0</p>
+<list name="connectionList">
+<item>
+<p name="linkId">1</p>
+<p name="positionInChain">1</p>
+<p name="sModId">1</p>
+</item>
+</list>
+<p name="linkSpeed">10</p>
+<p name="prodCode">472924A</p>
+<p name="prodCodePlanned">472924A.203</p>
+<p name="productName">FXED</p>
+<p name="retPort3gppEnabled">1</p>
+<p name="retPortDcVoltageEnabled">1</p>
+<p name="serNum">F7174328164</p>
+</managedObject>
+<managedObject class="NOKLTE:RMOD" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RMOD-2" id="792745" vendor="NSN" timeStamp="2019-01-28T18:17:38.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<list name="activeCellsList">
+<p>1</p>
+<p>2</p>
+<p>3</p>
+</list>
+<p name="climateControlProfiling">0</p>
+<list name="connectionList">
+<item>
+<p name="linkId">2</p>
+<p name="positionInChain">1</p>
+<p name="sModId">1</p>
+</item>
+</list>
+<p name="linkSpeed">10</p>
+<p name="prodCode">472703A</p>
+<p name="prodCodePlanned">472703A.203</p>
+<p name="productName">FRPA</p>
+<p name="retPort3gppEnabled">1</p>
+<p name="retPortDcVoltageEnabled">1</p>
+<p name="serNum">EA182014145</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-1" id="793736" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">25</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">176</p>
+</item>
+<item>
+<p name="antBeamwidth">56</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y3</p>
+<p name="antSerial">I0K3928275</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">C6K0422255-Y3</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-10" id="793696" vendor="NSN" timeStamp="2018-10-28T12:04:41.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">66</p>
+<p name="antFreqBand">5</p>
+<p name="antOperGain">157</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">8</p>
+<p name="antOperGain">161</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">12</p>
+<p name="antOperGain">163</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">20</p>
+<p name="antOperGain">164</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_R1</p>
+<p name="antSerial">I0K3928319</p>
+<list name="antlIdList">
+<p>11</p>
+<p>12</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">0</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">100</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">10</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162264-R1</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-11" id="793698" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">120</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">170</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y1</p>
+<p name="antSerial">I0K3928326</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162261-Y1</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-12" id="793699" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">120</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">170</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y1</p>
+<p name="antSerial">I0K3928319</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162264-Y1</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-13" id="793700" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">100</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">67</p>
+<p name="antFreqBand">5</p>
+<p name="antOperGain">155</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">8</p>
+<p name="antOperGain">160</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">12</p>
+<p name="antOperGain">163</p>
+</item>
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">20</p>
+<p name="antOperGain">165</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_R2</p>
+<p name="antSerial">I0K3928275</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">100</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">10</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">C6K0422255-R2</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-14" id="793702" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">100</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">67</p>
+<p name="antFreqBand">5</p>
+<p name="antOperGain">155</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">8</p>
+<p name="antOperGain">160</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">12</p>
+<p name="antOperGain">163</p>
+</item>
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">20</p>
+<p name="antOperGain">165</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_R2</p>
+<p name="antSerial">I0K3928326</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">100</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">10</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162261-R2</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-15" id="793703" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">100</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">67</p>
+<p name="antFreqBand">5</p>
+<p name="antOperGain">155</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">8</p>
+<p name="antOperGain">160</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">12</p>
+<p name="antOperGain">163</p>
+</item>
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">20</p>
+<p name="antOperGain">165</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_R2</p>
+<p name="antSerial">I0K3928319</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">100</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">10</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162264-R2</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-16" id="793705" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">25</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">61</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">174</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">57</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y4</p>
+<p name="antSerial">I0K3928275</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">C6K0422255-Y4</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-17" id="793707" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">120</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">61</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">174</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">57</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y4</p>
+<p name="antSerial">I0K3928326</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162261-Y4</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-18" id="793688" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">120</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">61</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">174</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">57</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y4</p>
+<p name="antSerial">I0K3928319</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162264-Y4</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-2" id="793735" vendor="NSN" timeStamp="2018-12-27T17:45:18.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">169</p>
+</item>
+<item>
+<p name="antBeamwidth">62</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">58</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y2</p>
+<p name="antSerial">I0K3928275</p>
+<list name="antlIdList">
+<p>1</p>
+<p>2</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">0</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">C6K0422255-Y2</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-3" id="793740" vendor="NSN" timeStamp="2018-10-28T12:04:03.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">66</p>
+<p name="antFreqBand">5</p>
+<p name="antOperGain">157</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">8</p>
+<p name="antOperGain">161</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">12</p>
+<p name="antOperGain">163</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">20</p>
+<p name="antOperGain">164</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_R1</p>
+<p name="antSerial">I0K3928275</p>
+<list name="antlIdList">
+<p>7</p>
+<p>8</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">0</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">100</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">10</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">C6K0422255-R1</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-4" id="793738" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">120</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">176</p>
+</item>
+<item>
+<p name="antBeamwidth">56</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y3</p>
+<p name="antSerial">I0K3928326</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162261-Y3</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-5" id="793730" vendor="NSN" timeStamp="2018-10-28T12:03:01.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">40</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">169</p>
+</item>
+<item>
+<p name="antBeamwidth">62</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">58</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y2</p>
+<p name="antSerial">I0K3928326</p>
+<list name="antlIdList">
+<p>3</p>
+<p>4</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">0</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162261-Y2</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-6" id="793729" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">120</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">176</p>
+</item>
+<item>
+<p name="antBeamwidth">56</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y3</p>
+<p name="antSerial">I0K3928319</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162264-Y3</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-7" id="793734" vendor="NSN" timeStamp="2018-12-27T17:45:18.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">169</p>
+</item>
+<item>
+<p name="antBeamwidth">62</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">58</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">171</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y2</p>
+<p name="antSerial">I0K3928319</p>
+<list name="antlIdList">
+<p>5</p>
+<p>6</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">0</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162264-Y2</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-8" id="793733" vendor="NSN" timeStamp="2018-10-28T12:04:21.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">66</p>
+<p name="antFreqBand">5</p>
+<p name="antOperGain">157</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">8</p>
+<p name="antOperGain">161</p>
+</item>
+<item>
+<p name="antBeamwidth">65</p>
+<p name="antFreqBand">12</p>
+<p name="antOperGain">163</p>
+</item>
+<item>
+<p name="antBeamwidth">64</p>
+<p name="antFreqBand">20</p>
+<p name="antOperGain">164</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_R1</p>
+<p name="antSerial">I0K3928326</p>
+<list name="antlIdList">
+<p>9</p>
+<p>10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">0</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">100</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">10</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">E4K3162261-R1</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:RET" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/RET-9" id="793742" vendor="NSN" timeStamp="2018-10-18T14:27:50.000+02:00">
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">120</p>
+<list name="antBandList">
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">1</p>
+<p name="antOperGain">170</p>
+</item>
+<item>
+<p name="antBeamwidth">63</p>
+<p name="antFreqBand">2</p>
+<p name="antOperGain">173</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">3</p>
+<p name="antOperGain">175</p>
+</item>
+<item>
+<p name="antBeamwidth">60</p>
+<p name="antFreqBand">7</p>
+<p name="antOperGain">170</p>
+</item>
+</list>
+<p name="antBearing">0</p>
+<p name="antModel">80010992_Y1</p>
+<p name="antSerial">I0K3928275</p>
+<list name="antlIdList">
+<p>-10</p>
+</list>
+<p name="calibrate">0</p>
+<p name="configFileDlNeeded">0</p>
+<p name="connection">2</p>
+<p name="hwVersion">HW_V_A00</p>
+<p name="manufacturer">KA</p>
+<p name="maxAngle">120</p>
+<p name="mechanicalAngle">0</p>
+<p name="minAngle">25</p>
+<p name="prodCode">86010153V01</p>
+<p name="retAntUnitNumber">1</p>
+<p name="retDeviceType">0</p>
+<p name="scannedAntennaInterface">-2001</p>
+<p name="serNum">C6K0422255-Y1</p>
+<p name="swVersion">FW_V02.02.00</p>
+</managedObject>
+<managedObject class="NOKLTE:LNCEL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/LNBTS-33162/LNCEL-1" id="786666" vendor="NSN" timeStamp="2019-03-21T18:02:26.000+02:00">
+<defaults name="System" id="2"/>
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<p name="mcc">602</p>
+<p name="mnc">04</p>
+<p name="a1TimeToTriggerDeactInterMeas">9</p>
+<p name="a2RedirectQci1">0</p>
+<p name="a2TimeToTriggerActGERANMeas">9</p>
+<p name="a2TimeToTriggerActInterFreqMeas">9</p>
+<p name="a2TimeToTriggerActWcdmaMeas">9</p>
+<p name="a2TimeToTriggerRedirect">7</p>
+<p name="a3Offset">6</p>
+<p name="a3ReportInterval">3</p>
+<p name="a3TimeToTrigger">8</p>
+<p name="a5ReportInterval">3</p>
+<p name="a5TimeToTrigger">8</p>
+<p name="act1TxIn2Tx">0</p>
+<p name="actAutoPucchAlloc">0</p>
+<p name="actCombSuperCell">0</p>
+<p name="actCsiRsSubFNonTM9Sch">0</p>
+<p name="actDataSessionProf">0</p>
+<p name="actDlsOldtc">0</p>
+<p name="actDlsVoicePacketAgg">0</p>
+<p name="actDrx">1</p>
+<p name="actDrxDuringMeasGap">0</p>
+<p name="actEicic">0</p>
+<p name="actFastMimoSwitch">0</p>
+<p name="actLdPdcch">1</p>
+<p name="actLiquidCell">0</p>
+<p name="actMicroDtx">0</p>
+<p name="actModulationSchemeDl">2</p>
+<p name="actModulationSchemeUL">2</p>
+<p name="actNBIoT">0</p>
+<p name="actNbrForNonGbrBearers">0</p>
+<p name="actNoIntraBandIFMeasurements">0</p>
+<p name="actOlLaPdcch">1</p>
+<p name="actOtdoa">0</p>
+<p name="actProactSchedBySrb">1</p>
+<p name="actPrsTxDiv">0</p>
+<p name="actPuschMask">0</p>
+<p name="actQci1RfDrx">0</p>
+<p name="actQci1eVTT">0</p>
+<p name="actRepeaterMode">0</p>
+<p name="actSdlc">0</p>
+<p name="actSixIfMeasurements">0</p>
+<p name="actSmartDrx">1</p>
+<p name="actSrb1Robustness">0</p>
+<p name="actSuperCell">0</p>
+<p name="actTtiBundling">0</p>
+<p name="actUciOnlyGrants">0</p>
+<p name="actUlGrpHop">0</p>
+<p name="actUlLnkAdp">6</p>
+<p name="actUlMultiCluster">0</p>
+<p name="actUlpcMethod">7</p>
+<p name="actUlpcRachPwrCtrl">0</p>
+<p name="actVoipCovBoost">0</p>
+<p name="addGbrTrafficRrHo">5</p>
+<p name="addGbrTrafficTcHo">10</p>
+<p name="addNumDrbRadioReasHo">35</p>
+<p name="addNumDrbTimeCriticalHo">60</p>
+<p name="addNumQci1DrbRadioReasHo">15</p>
+<p name="addNumQci1DrbTimeCriticalHo">20</p>
+<p name="addSpectrEmi">1</p>
+<p name="administrativeState">1</p>
+<p name="allowPbIndexZero">0</p>
+<p name="amleMaxNumHo">10</p>
+<p name="amlePeriodLoadExchange">1000</p>
+<p name="blankedPucch">0</p>
+<p name="caPoolId">1</p>
+<p name="cellIndOffServ">15</p>
+<p name="cellName">LALXN33162_1</p>
+<p name="cellPwrRedForMBMS">0</p>
+<p name="cellResourceSharingMode">0</p>
+<p name="cellType">3</p>
+<p name="cqiAperEnable">1</p>
+<p name="cqiAperMode">1</p>
+<p name="cqiPerSbCycK">1</p>
+<p name="cqiPerSimulAck">1</p>
+<p name="creCqiAvg">50</p>
+<p name="csgType">0</p>
+<p name="dFpucchF1">1</p>
+<p name="dFpucchF1b">0</p>
+<p name="dFpucchF2">1</p>
+<p name="dFpucchF2a">1</p>
+<p name="dFpucchF2b">1</p>
+<p name="dSrTransMax">4</p>
+<p name="defPagCyc">1</p>
+<p name="deltaLbCioMargin">0</p>
+<p name="deltaPreMsg3">1</p>
+<p name="deltaTfEnabled">0</p>
+<p name="dlCellPwrRed">0</p>
+<p name="dlChBw">100</p>
+<p name="dlInterferenceEnable">0</p>
+<p name="dlInterferenceLevel">0</p>
+<p name="dlInterferenceModulation">0</p>
+<p name="dlMimoMode">40</p>
+<p name="dlOlqcEnable">1</p>
+<p name="dlPathlossChg">1</p>
+<p name="dlPcfichBoost">0</p>
+<p name="dlPhichBoost">0</p>
+<p name="dlRsBoost">1300</p>
+<p name="dlTargetBler">100</p>
+<p name="dlamcCqiDef">2</p>
+<p name="dlamcEnable">1</p>
+<p name="dlpcMimoComp">0</p>
+<p name="dlsDciCch">0</p>
+<p name="dlsOldtcTarget">98</p>
+<p name="dlsUsePartPrb">2</p>
+<p name="drxProfile101drxInactivityT">10</p>
+<p name="drxProfile101drxLongCycle">160</p>
+<p name="drxProfile101drxOnDuratT">6</p>
+<p name="drxProfile101drxProfileIndex">101</p>
+<p name="drxProfile101drxProfilePriority">30</p>
+<p name="drxProfile101drxRetransT">4</p>
+<p name="drxProfile102drxInactivityT">20</p>
+<p name="drxProfile102drxLongCycle">1280</p>
+<p name="drxProfile102drxOnDuratT">10</p>
+<p name="drxProfile102drxProfileIndex">102</p>
+<p name="drxProfile102drxProfilePriority">30</p>
+<p name="drxProfile102drxRetransT">16</p>
+<p name="drxProfile103drxInactivityT">10</p>
+<p name="drxProfile103drxLongCycle">160</p>
+<p name="drxProfile103drxOnDuratT">6</p>
+<p name="drxProfile103drxProfileIndex">103</p>
+<p name="drxProfile103drxProfilePriority">30</p>
+<p name="drxProfile103drxRetransT">16</p>
+<p name="eIcicAbsAdaptationBeta">10</p>
+<p name="eIcicAbsAdaptationThreshold0To1">5</p>
+<p name="eIcicAbsDeltaAdjustment">6</p>
+<p name="eIcicAbsPatChangeDelayT">40</p>
+<p name="eIcicCreDelta">2</p>
+<p name="eIcicMaxMutePattern">4</p>
+<p name="eIcicMaxNumPartners">10</p>
+<p name="eIcicMp0DelayT">10</p>
+<p name="eIcicPartnerCacAbsTarget">10</p>
+<p name="eIcicPartnerCacTarget">10</p>
+<p name="eUlLaAtbPeriod">30</p>
+<p name="eUlLaBlerAveWin">30</p>
+<p name="eUlLaDeltaMcs">3</p>
+<p name="eUlLaLowMcsThr">1</p>
+<p name="eUlLaLowPrbThr">1</p>
+<p name="eUlLaPrbIncDecFactor">14</p>
+<p name="earfcnDL">9260</p>
+<p name="earfcnUL">27260</p>
+<p name="ecidMeasSupervisionTimer">3000</p>
+<p name="enableAmcPdcch">1</p>
+<p name="enableBetterCellHo">1</p>
+<p name="enableCovHo">0</p>
+<p name="enableLowAgg">1</p>
+<p name="enablePcPdcch">1</p>
+<p name="energySavingState">0</p>
+<p name="eutraCelId">8489473</p>
+<p name="expectedCellSize">4</p>
+<p name="fUlLAAtbTrigThr">-2</p>
+<p name="filterCoeff">4</p>
+<p name="filterCoefficientCSFBCpichEcn0">4</p>
+<p name="filterCoefficientCSFBCpichRscp">4</p>
+<p name="filterCoefficientCpichEcn0">4</p>
+<p name="filterCoefficientCpichRscp">4</p>
+<p name="filterCoefficientRSRP">4</p>
+<p name="filterCoefficientRSRQ">4</p>
+<p name="filterCoefficientRSSI">2</p>
+<p name="gbrCongHandling">2</p>
+<p name="grpAssigPUSCH">0</p>
+<p name="harqMaxMsg3">5</p>
+<p name="harqMaxTrDl">7</p>
+<p name="harqMaxTrUlTtiBundling">12</p>
+<p name="harqMaxTxUl">7</p>
+<p name="hopModePusch">0</p>
+<p name="hysA3Offset">2</p>
+<p name="hysThreshold2GERAN">0</p>
+<p name="hysThreshold2InterFreq">0</p>
+<p name="hysThreshold2Wcdma">0</p>
+<p name="hysThreshold2a">0</p>
+<p name="hysThreshold3">0</p>
+<p name="hysThreshold4">0</p>
+<p name="iFServiceBasedHoRetryTimer">60</p>
+<p name="idleLBCapThresh">100</p>
+<p name="idleLBPercCaUe">0</p>
+<p name="idleLBPercentageOfUes">0</p>
+<p name="ilReacTimerUl">20</p>
+<p name="inactivityTimer">10</p>
+<p name="iniMcsDl">4</p>
+<p name="iniMcsUl">2</p>
+<p name="iniPrbsUl">4</p>
+<p name="lbLoadFilCoeff">4</p>
+<p name="lcrId">1</p>
+<p name="longPeriodScellChEst">2000</p>
+<p name="lowerMarginCio">-10</p>
+<p name="maxBitrateDl">300000</p>
+<p name="maxBitrateUl">75000</p>
+<p name="maxCrPgDl">12</p>
+<p name="maxCrRa4Dl">5</p>
+<p name="maxCrRaDl">5</p>
+<p name="maxCrSibDl">26</p>
+<p name="maxGbrTrafficLimit">75</p>
+<p name="maxNbrTrafficLimit">90</p>
+<p name="maxNrSymPdcch">3</p>
+<p name="maxNumActDrb">660</p>
+<p name="maxNumActUE">220</p>
+<p name="maxNumCaConfUe">50</p>
+<p name="maxNumCaConfUe3c">20</p>
+<p name="maxNumCaConfUeDc">50</p>
+<p name="maxNumQci1Drb">100</p>
+<p name="maxNumScells">1</p>
+<p name="maxNumUeDl">14</p>
+<p name="maxNumUeUl">14</p>
+<p name="maxPrbsPerNbrUe">30</p>
+<p name="mbrSelector">0</p>
+<p name="measQuantityCSFBUtra">1</p>
+<p name="measQuantityUtra">0</p>
+<p name="mimoClCqiThD">70</p>
+<p name="mimoClCqiThU">80</p>
+<p name="mimoClRiThD">28</p>
+<p name="mimoClRiThU">32</p>
+<p name="mimoOlCqiThD">70</p>
+<p name="mimoOlCqiThU">80</p>
+<p name="mimoOlRiThD">28</p>
+<p name="mimoOlRiThU">32</p>
+<p name="minBitrateDl">30</p>
+<p name="minBitrateUl">30</p>
+<p name="mobStateParamNCelChgHgh">10</p>
+<p name="mobStateParamNCelChgMed">5</p>
+<p name="mobStateParamTEval">0</p>
+<p name="mobStateParamTHystNorm">0</p>
+<p name="multLoadMeasRrm">2</p>
+<p name="multLoadMeasRrmEicic">2</p>
+<p name="nbrCongHandling">1</p>
+<p name="offsetFreqIntra">15</p>
+<p name="operationalState">1</p>
+<p name="p0NomPucch">-106</p>
+<p name="p0NomPusch">-80</p>
+<p name="pMax">460</p>
+<p name="pagingNb">2</p>
+<p name="pdcchAggDefUe">2</p>
+<p name="pdcchAggMsg4">8</p>
+<p name="pdcchAggPaging">4</p>
+<p name="pdcchAggPreamb">4</p>
+<p name="pdcchAggRaresp">4</p>
+<p name="pdcchAggSib">4</p>
+<p name="pdcchAlpha">16</p>
+<p name="pdcchCqiShift">-20</p>
+<p name="pdcchHarqTargetBler">10</p>
+<p name="pdcchUlDlBal">10</p>
+<p name="periodicCqiFeedbackType">0</p>
+<p name="phyCellId">436</p>
+<p name="prachCS">10</p>
+<p name="prachConfIndex">3</p>
+<p name="prachFreqOff">3</p>
+<p name="prachHsFlag">0</p>
+<p name="preventCellActivation">0</p>
+<p name="prsBandwidth">50</p>
+<p name="prsConfigurationIndex">151</p>
+<p name="prsNumDlFrames">1</p>
+<p name="prsPowerBoost">0</p>
+<p name="pucchNAnCs">0</p>
+<p name="puschAckOffI">10</p>
+<p name="puschCqiOffI">8</p>
+<p name="puschRiOffI">10</p>
+<p name="qci1ProtectionTimer">40</p>
+<p name="qci1DlTargetBler">100</p>
+<p name="qci1HarqMaxTrDl">5</p>
+<p name="qci1HarqMaxTrUl">5</p>
+<p name="qci1ReconStopTimer">10</p>
+<p name="qci1ThroughputFactorDl">16</p>
+<p name="qci1ThroughputFactorUl">16</p>
+<p name="qci1UlTargetBler">10</p>
+<p name="raContResoT">7</p>
+<p name="raLargeMcsUl">5</p>
+<p name="raMsgPoffGrB">4</p>
+<p name="raNondedPreamb">9</p>
+<p name="raPreGrASize">7</p>
+<p name="raRespWinSize">7</p>
+<p name="raSmallMcsUl">5</p>
+<p name="raSmallVolUl">0</p>
+<p name="rcAmbrMgnDl">103</p>
+<p name="rcAmbrMgnUl">102</p>
+<p name="rcEnableDl">0</p>
+<p name="rcEnableUl">0</p>
+<p name="redBwEnDl">0</p>
+<p name="redBwMaxRbDl">50</p>
+<p name="redBwRpaEnUl">0</p>
+<p name="rfSensitivity">0</p>
+<p name="rootSeqIndex">666</p>
+<p name="rttCellIdInfo">0</p>
+<p name="rttCsfbType">1</p>
+<p name="sbHoMode">0</p>
+<p name="scellBadChQualThr">6</p>
+<p name="scellGoodChQualThr">8</p>
+<p name="scellNotDetectableThr">4</p>
+<p name="selectOuterPuschRegion">0</p>
+<p name="shortPeriodScellChEst">200</p>
+<p name="srsActivation">1</p>
+<p name="srsPwrOffset">7</p>
+<p name="syncSigTxMode">1</p>
+<p name="t302">8000</p>
+<p name="t304InterRAT">4</p>
+<p name="t304InterRATGsm">3</p>
+<p name="t304IntraLte">6</p>
+<p name="t304eNaccGsm">5</p>
+<p name="t320">180</p>
+<p name="tExtendedWait">300</p>
+<p name="tLoadMeasX2">10000</p>
+<p name="tLoadMeasX2Eicic">2000</p>
+<p name="tPageCorrInt">3000</p>
+<p name="tPeriodicBsr">1</p>
+<p name="tPeriodicPhr">1</p>
+<p name="tPingPong">3000</p>
+<p name="tProhibitPhr">0</p>
+<p name="tReTxBsrTime">0</p>
+<p name="tStoreUeCntxt">2000</p>
+<p name="taMaxOffset">52</p>
+<p name="taTimer">6</p>
+<p name="taTimerMargin">2000</p>
+<p name="tac">32090</p>
+<p name="targetSelMethod">0</p>
+<p name="threshold1">70</p>
+<p name="threshold2GERAN">21</p>
+<p name="threshold2GERANQci1">25</p>
+<p name="threshold2InterFreq">22</p>
+<p name="threshold2InterFreqQci1">35</p>
+<p name="threshold2Wcdma">22</p>
+<p name="threshold2WcdmaQci1">27</p>
+<p name="threshold2a">24</p>
+<p name="threshold2aQci1">46</p>
+<p name="threshold3">24</p>
+<p name="threshold3a">26</p>
+<p name="threshold4">19</p>
+<p name="timeToTriggerSfHigh">1</p>
+<p name="timeToTriggerSfMedium">1</p>
+<p name="ttiBundlingBlerTarget">12</p>
+<p name="ttiBundlingBlerThreshold">15</p>
+<p name="ttiBundlingSinrThreshold">10</p>
+<p name="ttibOperMode">1</p>
+<p name="ulChBw">100</p>
+<p name="ulCombinationMode">1</p>
+<p name="ulRsCs">0</p>
+<p name="ulTargetBler">10</p>
+<p name="ulamcAllTbEn">1</p>
+<p name="ulamcSwitchPer">30</p>
+<p name="ulatbEventPer">1</p>
+<p name="ulpcAlpha">7</p>
+<p name="p0NomPuschIAw">-100</p>
+<p name="ulpcCEBalanceIAw">8</p>
+<p name="ulpcMinQualIAw">5</p>
+<p name="ulpcMinWaitForPc">50</p>
+<p name="ulpcRefPwrIAw">-218</p>
+<p name="ulpcLowlevCch">-118</p>
+<p name="ulpcLowqualCch">-1</p>
+<p name="ulpcUplevCch">-113</p>
+<p name="ulpcUpqualCch">2</p>
+<p name="ulpcLowlevSch">-103</p>
+<p name="ulpcLowqualSch">0</p>
+<p name="ulpcUplevSch">-88</p>
+<p name="ulpcUpqualSch">20</p>
+<p name="ulpcRarespTpc">2</p>
+<p name="ulpcReadPeriod">50</p>
+<p name="ulsFdPrbAssignAlg">2</p>
+<p name="ulsMaxPacketAgg">2</p>
+<p name="ulsMinRbPerUe">3</p>
+<p name="ulsMinTbs">72</p>
+<p name="ulsNumSchedAreaUl">6</p>
+<p name="ulsSchedMethod">1</p>
+<p name="upperMarginCio">10</p>
+</managedObject>
+<managedObject class="NOKLTE:LNCEL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/LNBTS-33162/LNCEL-2" id="786640" vendor="NSN" timeStamp="2019-03-21T18:02:26.000+02:00">
+<defaults name="System" id="2"/>
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<p name="mcc">602</p>
+<p name="mnc">04</p>
+<p name="a1TimeToTriggerDeactInterMeas">9</p>
+<p name="a2RedirectQci1">0</p>
+<p name="a2TimeToTriggerActGERANMeas">9</p>
+<p name="a2TimeToTriggerActInterFreqMeas">9</p>
+<p name="a2TimeToTriggerActWcdmaMeas">9</p>
+<p name="a2TimeToTriggerRedirect">7</p>
+<p name="a3Offset">6</p>
+<p name="a3ReportInterval">3</p>
+<p name="a3TimeToTrigger">8</p>
+<p name="a5ReportInterval">3</p>
+<p name="a5TimeToTrigger">8</p>
+<p name="act1TxIn2Tx">0</p>
+<p name="actAutoPucchAlloc">0</p>
+<p name="actCombSuperCell">0</p>
+<p name="actCsiRsSubFNonTM9Sch">0</p>
+<p name="actDataSessionProf">0</p>
+<p name="actDlsOldtc">0</p>
+<p name="actDlsVoicePacketAgg">0</p>
+<p name="actDrx">1</p>
+<p name="actDrxDuringMeasGap">0</p>
+<p name="actEicic">0</p>
+<p name="actFastMimoSwitch">0</p>
+<p name="actLdPdcch">1</p>
+<p name="actLiquidCell">0</p>
+<p name="actMicroDtx">0</p>
+<p name="actModulationSchemeDl">2</p>
+<p name="actModulationSchemeUL">2</p>
+<p name="actNBIoT">0</p>
+<p name="actNbrForNonGbrBearers">0</p>
+<p name="actNoIntraBandIFMeasurements">0</p>
+<p name="actOlLaPdcch">1</p>
+<p name="actOtdoa">0</p>
+<p name="actProactSchedBySrb">1</p>
+<p name="actPrsTxDiv">0</p>
+<p name="actPuschMask">0</p>
+<p name="actQci1RfDrx">0</p>
+<p name="actQci1eVTT">0</p>
+<p name="actRepeaterMode">0</p>
+<p name="actSdlc">0</p>
+<p name="actSixIfMeasurements">0</p>
+<p name="actSmartDrx">1</p>
+<p name="actSrb1Robustness">0</p>
+<p name="actSuperCell">0</p>
+<p name="actTtiBundling">0</p>
+<p name="actUciOnlyGrants">0</p>
+<p name="actUlGrpHop">0</p>
+<p name="actUlLnkAdp">6</p>
+<p name="actUlMultiCluster">0</p>
+<p name="actUlpcMethod">7</p>
+<p name="actUlpcRachPwrCtrl">0</p>
+<p name="actVoipCovBoost">0</p>
+<p name="addGbrTrafficRrHo">5</p>
+<p name="addGbrTrafficTcHo">10</p>
+<p name="addNumDrbRadioReasHo">35</p>
+<p name="addNumDrbTimeCriticalHo">60</p>
+<p name="addNumQci1DrbRadioReasHo">15</p>
+<p name="addNumQci1DrbTimeCriticalHo">20</p>
+<p name="addSpectrEmi">1</p>
+<p name="administrativeState">1</p>
+<p name="allowPbIndexZero">0</p>
+<p name="amleMaxNumHo">10</p>
+<p name="amlePeriodLoadExchange">1000</p>
+<p name="blankedPucch">0</p>
+<p name="caPoolId">2</p>
+<p name="cellIndOffServ">15</p>
+<p name="cellName">LALXN33162_2</p>
+<p name="cellPwrRedForMBMS">0</p>
+<p name="cellResourceSharingMode">0</p>
+<p name="cellType">3</p>
+<p name="cqiAperEnable">1</p>
+<p name="cqiAperMode">1</p>
+<p name="cqiPerSbCycK">1</p>
+<p name="cqiPerSimulAck">1</p>
+<p name="creCqiAvg">50</p>
+<p name="csgType">0</p>
+<p name="dFpucchF1">1</p>
+<p name="dFpucchF1b">0</p>
+<p name="dFpucchF2">1</p>
+<p name="dFpucchF2a">1</p>
+<p name="dFpucchF2b">1</p>
+<p name="dSrTransMax">4</p>
+<p name="defPagCyc">1</p>
+<p name="deltaLbCioMargin">0</p>
+<p name="deltaPreMsg3">1</p>
+<p name="deltaTfEnabled">0</p>
+<p name="dlCellPwrRed">0</p>
+<p name="dlChBw">100</p>
+<p name="dlInterferenceEnable">0</p>
+<p name="dlInterferenceLevel">0</p>
+<p name="dlInterferenceModulation">0</p>
+<p name="dlMimoMode">40</p>
+<p name="dlOlqcEnable">1</p>
+<p name="dlPathlossChg">1</p>
+<p name="dlPcfichBoost">0</p>
+<p name="dlPhichBoost">0</p>
+<p name="dlRsBoost">1300</p>
+<p name="dlTargetBler">100</p>
+<p name="dlamcCqiDef">2</p>
+<p name="dlamcEnable">1</p>
+<p name="dlpcMimoComp">0</p>
+<p name="dlsDciCch">0</p>
+<p name="dlsOldtcTarget">98</p>
+<p name="dlsUsePartPrb">2</p>
+<p name="drxProfile101drxInactivityT">10</p>
+<p name="drxProfile101drxLongCycle">160</p>
+<p name="drxProfile101drxOnDuratT">6</p>
+<p name="drxProfile101drxProfileIndex">101</p>
+<p name="drxProfile101drxProfilePriority">30</p>
+<p name="drxProfile101drxRetransT">4</p>
+<p name="drxProfile102drxInactivityT">20</p>
+<p name="drxProfile102drxLongCycle">1280</p>
+<p name="drxProfile102drxOnDuratT">10</p>
+<p name="drxProfile102drxProfileIndex">102</p>
+<p name="drxProfile102drxProfilePriority">30</p>
+<p name="drxProfile102drxRetransT">16</p>
+<p name="drxProfile103drxInactivityT">10</p>
+<p name="drxProfile103drxLongCycle">160</p>
+<p name="drxProfile103drxOnDuratT">6</p>
+<p name="drxProfile103drxProfileIndex">103</p>
+<p name="drxProfile103drxProfilePriority">30</p>
+<p name="drxProfile103drxRetransT">16</p>
+<p name="eIcicAbsAdaptationBeta">10</p>
+<p name="eIcicAbsAdaptationThreshold0To1">5</p>
+<p name="eIcicAbsDeltaAdjustment">6</p>
+<p name="eIcicAbsPatChangeDelayT">40</p>
+<p name="eIcicCreDelta">2</p>
+<p name="eIcicMaxMutePattern">4</p>
+<p name="eIcicMaxNumPartners">10</p>
+<p name="eIcicMp0DelayT">10</p>
+<p name="eIcicPartnerCacAbsTarget">10</p>
+<p name="eIcicPartnerCacTarget">10</p>
+<p name="eUlLaAtbPeriod">30</p>
+<p name="eUlLaBlerAveWin">30</p>
+<p name="eUlLaDeltaMcs">3</p>
+<p name="eUlLaLowMcsThr">1</p>
+<p name="eUlLaLowPrbThr">1</p>
+<p name="eUlLaPrbIncDecFactor">14</p>
+<p name="earfcnDL">9260</p>
+<p name="earfcnUL">27260</p>
+<p name="ecidMeasSupervisionTimer">3000</p>
+<p name="enableAmcPdcch">1</p>
+<p name="enableBetterCellHo">1</p>
+<p name="enableCovHo">0</p>
+<p name="enableLowAgg">1</p>
+<p name="enablePcPdcch">1</p>
+<p name="energySavingState">0</p>
+<p name="eutraCelId">8489474</p>
+<p name="expectedCellSize">4</p>
+<p name="fUlLAAtbTrigThr">-2</p>
+<p name="filterCoeff">4</p>
+<p name="filterCoefficientCSFBCpichEcn0">4</p>
+<p name="filterCoefficientCSFBCpichRscp">4</p>
+<p name="filterCoefficientCpichEcn0">4</p>
+<p name="filterCoefficientCpichRscp">4</p>
+<p name="filterCoefficientRSRP">4</p>
+<p name="filterCoefficientRSRQ">4</p>
+<p name="filterCoefficientRSSI">2</p>
+<p name="gbrCongHandling">2</p>
+<p name="grpAssigPUSCH">0</p>
+<p name="harqMaxMsg3">5</p>
+<p name="harqMaxTrDl">7</p>
+<p name="harqMaxTrUlTtiBundling">12</p>
+<p name="harqMaxTxUl">7</p>
+<p name="hopModePusch">0</p>
+<p name="hysA3Offset">2</p>
+<p name="hysThreshold2GERAN">0</p>
+<p name="hysThreshold2InterFreq">0</p>
+<p name="hysThreshold2Wcdma">0</p>
+<p name="hysThreshold2a">0</p>
+<p name="hysThreshold3">0</p>
+<p name="hysThreshold4">0</p>
+<p name="iFServiceBasedHoRetryTimer">60</p>
+<p name="idleLBCapThresh">100</p>
+<p name="idleLBPercCaUe">0</p>
+<p name="idleLBPercentageOfUes">0</p>
+<p name="ilReacTimerUl">20</p>
+<p name="inactivityTimer">10</p>
+<p name="iniMcsDl">4</p>
+<p name="iniMcsUl">2</p>
+<p name="iniPrbsUl">4</p>
+<p name="lbLoadFilCoeff">4</p>
+<p name="lcrId">2</p>
+<p name="longPeriodScellChEst">2000</p>
+<p name="lowerMarginCio">-10</p>
+<p name="maxBitrateDl">300000</p>
+<p name="maxBitrateUl">75000</p>
+<p name="maxCrPgDl">12</p>
+<p name="maxCrRa4Dl">5</p>
+<p name="maxCrRaDl">5</p>
+<p name="maxCrSibDl">26</p>
+<p name="maxGbrTrafficLimit">75</p>
+<p name="maxNbrTrafficLimit">90</p>
+<p name="maxNrSymPdcch">3</p>
+<p name="maxNumActDrb">660</p>
+<p name="maxNumActUE">220</p>
+<p name="maxNumCaConfUe">50</p>
+<p name="maxNumCaConfUe3c">20</p>
+<p name="maxNumCaConfUeDc">50</p>
+<p name="maxNumQci1Drb">100</p>
+<p name="maxNumScells">1</p>
+<p name="maxNumUeDl">14</p>
+<p name="maxNumUeUl">14</p>
+<p name="maxPrbsPerNbrUe">30</p>
+<p name="mbrSelector">0</p>
+<p name="measQuantityCSFBUtra">1</p>
+<p name="measQuantityUtra">0</p>
+<p name="mimoClCqiThD">70</p>
+<p name="mimoClCqiThU">80</p>
+<p name="mimoClRiThD">28</p>
+<p name="mimoClRiThU">32</p>
+<p name="mimoOlCqiThD">70</p>
+<p name="mimoOlCqiThU">80</p>
+<p name="mimoOlRiThD">28</p>
+<p name="mimoOlRiThU">32</p>
+<p name="minBitrateDl">30</p>
+<p name="minBitrateUl">30</p>
+<p name="mobStateParamNCelChgHgh">10</p>
+<p name="mobStateParamNCelChgMed">5</p>
+<p name="mobStateParamTEval">0</p>
+<p name="mobStateParamTHystNorm">0</p>
+<p name="multLoadMeasRrm">2</p>
+<p name="multLoadMeasRrmEicic">2</p>
+<p name="nbrCongHandling">1</p>
+<p name="offsetFreqIntra">15</p>
+<p name="operationalState">1</p>
+<p name="p0NomPucch">-106</p>
+<p name="p0NomPusch">-80</p>
+<p name="pMax">430</p>
+<p name="pagingNb">2</p>
+<p name="pdcchAggDefUe">2</p>
+<p name="pdcchAggMsg4">8</p>
+<p name="pdcchAggPaging">4</p>
+<p name="pdcchAggPreamb">4</p>
+<p name="pdcchAggRaresp">4</p>
+<p name="pdcchAggSib">4</p>
+<p name="pdcchAlpha">16</p>
+<p name="pdcchCqiShift">-20</p>
+<p name="pdcchHarqTargetBler">10</p>
+<p name="pdcchUlDlBal">10</p>
+<p name="periodicCqiFeedbackType">0</p>
+<p name="phyCellId">437</p>
+<p name="prachCS">10</p>
+<p name="prachConfIndex">3</p>
+<p name="prachFreqOff">3</p>
+<p name="prachHsFlag">0</p>
+<p name="preventCellActivation">0</p>
+<p name="prsBandwidth">50</p>
+<p name="prsConfigurationIndex">151</p>
+<p name="prsNumDlFrames">1</p>
+<p name="prsPowerBoost">0</p>
+<p name="pucchNAnCs">0</p>
+<p name="puschAckOffI">10</p>
+<p name="puschCqiOffI">8</p>
+<p name="puschRiOffI">10</p>
+<p name="qci1ProtectionTimer">40</p>
+<p name="qci1DlTargetBler">100</p>
+<p name="qci1HarqMaxTrDl">5</p>
+<p name="qci1HarqMaxTrUl">5</p>
+<p name="qci1ReconStopTimer">10</p>
+<p name="qci1ThroughputFactorDl">16</p>
+<p name="qci1ThroughputFactorUl">16</p>
+<p name="qci1UlTargetBler">10</p>
+<p name="raContResoT">7</p>
+<p name="raLargeMcsUl">5</p>
+<p name="raMsgPoffGrB">4</p>
+<p name="raNondedPreamb">9</p>
+<p name="raPreGrASize">7</p>
+<p name="raRespWinSize">7</p>
+<p name="raSmallMcsUl">5</p>
+<p name="raSmallVolUl">0</p>
+<p name="rcAmbrMgnDl">103</p>
+<p name="rcAmbrMgnUl">102</p>
+<p name="rcEnableDl">0</p>
+<p name="rcEnableUl">0</p>
+<p name="redBwEnDl">0</p>
+<p name="redBwMaxRbDl">50</p>
+<p name="redBwRpaEnUl">0</p>
+<p name="rfSensitivity">0</p>
+<p name="rootSeqIndex">534</p>
+<p name="rttCellIdInfo">0</p>
+<p name="rttCsfbType">1</p>
+<p name="sbHoMode">0</p>
+<p name="scellBadChQualThr">6</p>
+<p name="scellGoodChQualThr">8</p>
+<p name="scellNotDetectableThr">4</p>
+<p name="selectOuterPuschRegion">0</p>
+<p name="shortPeriodScellChEst">200</p>
+<p name="srsActivation">1</p>
+<p name="srsPwrOffset">7</p>
+<p name="syncSigTxMode">1</p>
+<p name="t302">8000</p>
+<p name="t304InterRAT">4</p>
+<p name="t304InterRATGsm">3</p>
+<p name="t304IntraLte">6</p>
+<p name="t304eNaccGsm">5</p>
+<p name="t320">180</p>
+<p name="tExtendedWait">300</p>
+<p name="tLoadMeasX2">10000</p>
+<p name="tLoadMeasX2Eicic">2000</p>
+<p name="tPageCorrInt">3000</p>
+<p name="tPeriodicBsr">1</p>
+<p name="tPeriodicPhr">1</p>
+<p name="tPingPong">3000</p>
+<p name="tProhibitPhr">0</p>
+<p name="tReTxBsrTime">0</p>
+<p name="tStoreUeCntxt">2000</p>
+<p name="taMaxOffset">52</p>
+<p name="taTimer">6</p>
+<p name="taTimerMargin">2000</p>
+<p name="tac">32090</p>
+<p name="targetSelMethod">0</p>
+<p name="threshold1">70</p>
+<p name="threshold2GERAN">21</p>
+<p name="threshold2GERANQci1">25</p>
+<p name="threshold2InterFreq">22</p>
+<p name="threshold2InterFreqQci1">35</p>
+<p name="threshold2Wcdma">22</p>
+<p name="threshold2WcdmaQci1">27</p>
+<p name="threshold2a">24</p>
+<p name="threshold2aQci1">46</p>
+<p name="threshold3">24</p>
+<p name="threshold3a">26</p>
+<p name="threshold4">19</p>
+<p name="timeToTriggerSfHigh">1</p>
+<p name="timeToTriggerSfMedium">1</p>
+<p name="ttiBundlingBlerTarget">12</p>
+<p name="ttiBundlingBlerThreshold">15</p>
+<p name="ttiBundlingSinrThreshold">10</p>
+<p name="ttibOperMode">1</p>
+<p name="ulChBw">100</p>
+<p name="ulCombinationMode">1</p>
+<p name="ulRsCs">0</p>
+<p name="ulTargetBler">10</p>
+<p name="ulamcAllTbEn">1</p>
+<p name="ulamcSwitchPer">30</p>
+<p name="ulatbEventPer">1</p>
+<p name="ulpcAlpha">7</p>
+<p name="p0NomPuschIAw">-100</p>
+<p name="ulpcCEBalanceIAw">8</p>
+<p name="ulpcMinQualIAw">5</p>
+<p name="ulpcMinWaitForPc">50</p>
+<p name="ulpcRefPwrIAw">-218</p>
+<p name="ulpcLowlevCch">-118</p>
+<p name="ulpcLowqualCch">-1</p>
+<p name="ulpcUplevCch">-113</p>
+<p name="ulpcUpqualCch">2</p>
+<p name="ulpcLowlevSch">-103</p>
+<p name="ulpcLowqualSch">0</p>
+<p name="ulpcUplevSch">-88</p>
+<p name="ulpcUpqualSch">20</p>
+<p name="ulpcRarespTpc">2</p>
+<p name="ulpcReadPeriod">50</p>
+<p name="ulsFdPrbAssignAlg">2</p>
+<p name="ulsMaxPacketAgg">2</p>
+<p name="ulsMinRbPerUe">3</p>
+<p name="ulsMinTbs">72</p>
+<p name="ulsNumSchedAreaUl">6</p>
+<p name="ulsSchedMethod">1</p>
+<p name="upperMarginCio">10</p>
+</managedObject>
+<managedObject class="NOKLTE:LNCEL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/LNBTS-33162/LNCEL-3" id="786667" vendor="NSN" timeStamp="2019-03-21T18:02:26.000+02:00">
+<defaults name="System" id="2"/>
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<p name="mcc">602</p>
+<p name="mnc">04</p>
+<p name="a1TimeToTriggerDeactInterMeas">9</p>
+<p name="a2RedirectQci1">0</p>
+<p name="a2TimeToTriggerActGERANMeas">9</p>
+<p name="a2TimeToTriggerActInterFreqMeas">9</p>
+<p name="a2TimeToTriggerActWcdmaMeas">9</p>
+<p name="a2TimeToTriggerRedirect">7</p>
+<p name="a3Offset">6</p>
+<p name="a3ReportInterval">3</p>
+<p name="a3TimeToTrigger">8</p>
+<p name="a5ReportInterval">3</p>
+<p name="a5TimeToTrigger">8</p>
+<p name="act1TxIn2Tx">0</p>
+<p name="actAutoPucchAlloc">0</p>
+<p name="actCombSuperCell">0</p>
+<p name="actCsiRsSubFNonTM9Sch">0</p>
+<p name="actDataSessionProf">0</p>
+<p name="actDlsOldtc">0</p>
+<p name="actDlsVoicePacketAgg">0</p>
+<p name="actDrx">1</p>
+<p name="actDrxDuringMeasGap">0</p>
+<p name="actEicic">0</p>
+<p name="actFastMimoSwitch">0</p>
+<p name="actLdPdcch">1</p>
+<p name="actLiquidCell">0</p>
+<p name="actMicroDtx">0</p>
+<p name="actModulationSchemeDl">2</p>
+<p name="actModulationSchemeUL">2</p>
+<p name="actNBIoT">0</p>
+<p name="actNbrForNonGbrBearers">0</p>
+<p name="actNoIntraBandIFMeasurements">0</p>
+<p name="actOlLaPdcch">1</p>
+<p name="actOtdoa">0</p>
+<p name="actProactSchedBySrb">1</p>
+<p name="actPrsTxDiv">0</p>
+<p name="actPuschMask">0</p>
+<p name="actQci1RfDrx">0</p>
+<p name="actQci1eVTT">0</p>
+<p name="actRepeaterMode">0</p>
+<p name="actSdlc">0</p>
+<p name="actSixIfMeasurements">0</p>
+<p name="actSmartDrx">1</p>
+<p name="actSrb1Robustness">0</p>
+<p name="actSuperCell">0</p>
+<p name="actTtiBundling">0</p>
+<p name="actUciOnlyGrants">0</p>
+<p name="actUlGrpHop">0</p>
+<p name="actUlLnkAdp">6</p>
+<p name="actUlMultiCluster">0</p>
+<p name="actUlpcMethod">7</p>
+<p name="actUlpcRachPwrCtrl">0</p>
+<p name="actVoipCovBoost">0</p>
+<p name="addGbrTrafficRrHo">5</p>
+<p name="addGbrTrafficTcHo">10</p>
+<p name="addNumDrbRadioReasHo">35</p>
+<p name="addNumDrbTimeCriticalHo">60</p>
+<p name="addNumQci1DrbRadioReasHo">15</p>
+<p name="addNumQci1DrbTimeCriticalHo">20</p>
+<p name="addSpectrEmi">1</p>
+<p name="administrativeState">1</p>
+<p name="allowPbIndexZero">0</p>
+<p name="amleMaxNumHo">10</p>
+<p name="amlePeriodLoadExchange">1000</p>
+<p name="blankedPucch">0</p>
+<p name="caPoolId">3</p>
+<p name="cellIndOffServ">15</p>
+<p name="cellName">LALXN33162_3</p>
+<p name="cellPwrRedForMBMS">0</p>
+<p name="cellResourceSharingMode">0</p>
+<p name="cellType">3</p>
+<p name="cqiAperEnable">1</p>
+<p name="cqiAperMode">1</p>
+<p name="cqiPerSbCycK">1</p>
+<p name="cqiPerSimulAck">1</p>
+<p name="creCqiAvg">50</p>
+<p name="csgType">0</p>
+<p name="dFpucchF1">1</p>
+<p name="dFpucchF1b">0</p>
+<p name="dFpucchF2">1</p>
+<p name="dFpucchF2a">1</p>
+<p name="dFpucchF2b">1</p>
+<p name="dSrTransMax">4</p>
+<p name="defPagCyc">1</p>
+<p name="deltaLbCioMargin">0</p>
+<p name="deltaPreMsg3">1</p>
+<p name="deltaTfEnabled">0</p>
+<p name="dlCellPwrRed">0</p>
+<p name="dlChBw">100</p>
+<p name="dlInterferenceEnable">0</p>
+<p name="dlInterferenceLevel">0</p>
+<p name="dlInterferenceModulation">0</p>
+<p name="dlMimoMode">40</p>
+<p name="dlOlqcEnable">1</p>
+<p name="dlPathlossChg">1</p>
+<p name="dlPcfichBoost">0</p>
+<p name="dlPhichBoost">0</p>
+<p name="dlRsBoost">1300</p>
+<p name="dlTargetBler">100</p>
+<p name="dlamcCqiDef">2</p>
+<p name="dlamcEnable">1</p>
+<p name="dlpcMimoComp">0</p>
+<p name="dlsDciCch">0</p>
+<p name="dlsOldtcTarget">98</p>
+<p name="dlsUsePartPrb">2</p>
+<p name="drxProfile101drxInactivityT">10</p>
+<p name="drxProfile101drxLongCycle">160</p>
+<p name="drxProfile101drxOnDuratT">6</p>
+<p name="drxProfile101drxProfileIndex">101</p>
+<p name="drxProfile101drxProfilePriority">30</p>
+<p name="drxProfile101drxRetransT">4</p>
+<p name="drxProfile102drxInactivityT">20</p>
+<p name="drxProfile102drxLongCycle">1280</p>
+<p name="drxProfile102drxOnDuratT">10</p>
+<p name="drxProfile102drxProfileIndex">102</p>
+<p name="drxProfile102drxProfilePriority">30</p>
+<p name="drxProfile102drxRetransT">16</p>
+<p name="drxProfile103drxInactivityT">10</p>
+<p name="drxProfile103drxLongCycle">160</p>
+<p name="drxProfile103drxOnDuratT">6</p>
+<p name="drxProfile103drxProfileIndex">103</p>
+<p name="drxProfile103drxProfilePriority">30</p>
+<p name="drxProfile103drxRetransT">16</p>
+<p name="eIcicAbsAdaptationBeta">10</p>
+<p name="eIcicAbsAdaptationThreshold0To1">5</p>
+<p name="eIcicAbsDeltaAdjustment">6</p>
+<p name="eIcicAbsPatChangeDelayT">40</p>
+<p name="eIcicCreDelta">2</p>
+<p name="eIcicMaxMutePattern">4</p>
+<p name="eIcicMaxNumPartners">10</p>
+<p name="eIcicMp0DelayT">10</p>
+<p name="eIcicPartnerCacAbsTarget">10</p>
+<p name="eIcicPartnerCacTarget">10</p>
+<p name="eUlLaAtbPeriod">30</p>
+<p name="eUlLaBlerAveWin">30</p>
+<p name="eUlLaDeltaMcs">3</p>
+<p name="eUlLaLowMcsThr">1</p>
+<p name="eUlLaLowPrbThr">1</p>
+<p name="eUlLaPrbIncDecFactor">14</p>
+<p name="earfcnDL">9260</p>
+<p name="earfcnUL">27260</p>
+<p name="ecidMeasSupervisionTimer">3000</p>
+<p name="enableAmcPdcch">1</p>
+<p name="enableBetterCellHo">1</p>
+<p name="enableCovHo">0</p>
+<p name="enableLowAgg">1</p>
+<p name="enablePcPdcch">1</p>
+<p name="energySavingState">0</p>
+<p name="eutraCelId">8489475</p>
+<p name="expectedCellSize">4</p>
+<p name="fUlLAAtbTrigThr">-2</p>
+<p name="filterCoeff">4</p>
+<p name="filterCoefficientCSFBCpichEcn0">4</p>
+<p name="filterCoefficientCSFBCpichRscp">4</p>
+<p name="filterCoefficientCpichEcn0">4</p>
+<p name="filterCoefficientCpichRscp">4</p>
+<p name="filterCoefficientRSRP">4</p>
+<p name="filterCoefficientRSRQ">4</p>
+<p name="filterCoefficientRSSI">2</p>
+<p name="gbrCongHandling">2</p>
+<p name="grpAssigPUSCH">0</p>
+<p name="harqMaxMsg3">5</p>
+<p name="harqMaxTrDl">7</p>
+<p name="harqMaxTrUlTtiBundling">12</p>
+<p name="harqMaxTxUl">7</p>
+<p name="hopModePusch">0</p>
+<p name="hysA3Offset">2</p>
+<p name="hysThreshold2GERAN">0</p>
+<p name="hysThreshold2InterFreq">0</p>
+<p name="hysThreshold2Wcdma">0</p>
+<p name="hysThreshold2a">0</p>
+<p name="hysThreshold3">0</p>
+<p name="hysThreshold4">0</p>
+<p name="iFServiceBasedHoRetryTimer">60</p>
+<p name="idleLBCapThresh">100</p>
+<p name="idleLBPercCaUe">0</p>
+<p name="idleLBPercentageOfUes">0</p>
+<p name="ilReacTimerUl">20</p>
+<p name="inactivityTimer">10</p>
+<p name="iniMcsDl">4</p>
+<p name="iniMcsUl">2</p>
+<p name="iniPrbsUl">4</p>
+<p name="lbLoadFilCoeff">4</p>
+<p name="lcrId">3</p>
+<p name="longPeriodScellChEst">2000</p>
+<p name="lowerMarginCio">-10</p>
+<p name="maxBitrateDl">300000</p>
+<p name="maxBitrateUl">75000</p>
+<p name="maxCrPgDl">12</p>
+<p name="maxCrRa4Dl">5</p>
+<p name="maxCrRaDl">5</p>
+<p name="maxCrSibDl">26</p>
+<p name="maxGbrTrafficLimit">75</p>
+<p name="maxNbrTrafficLimit">90</p>
+<p name="maxNrSymPdcch">3</p>
+<p name="maxNumActDrb">660</p>
+<p name="maxNumActUE">220</p>
+<p name="maxNumCaConfUe">50</p>
+<p name="maxNumCaConfUe3c">20</p>
+<p name="maxNumCaConfUeDc">50</p>
+<p name="maxNumQci1Drb">100</p>
+<p name="maxNumScells">1</p>
+<p name="maxNumUeDl">14</p>
+<p name="maxNumUeUl">14</p>
+<p name="maxPrbsPerNbrUe">30</p>
+<p name="mbrSelector">0</p>
+<p name="measQuantityCSFBUtra">1</p>
+<p name="measQuantityUtra">0</p>
+<p name="mimoClCqiThD">70</p>
+<p name="mimoClCqiThU">80</p>
+<p name="mimoClRiThD">28</p>
+<p name="mimoClRiThU">32</p>
+<p name="mimoOlCqiThD">70</p>
+<p name="mimoOlCqiThU">80</p>
+<p name="mimoOlRiThD">28</p>
+<p name="mimoOlRiThU">32</p>
+<p name="minBitrateDl">30</p>
+<p name="minBitrateUl">30</p>
+<p name="mobStateParamNCelChgHgh">10</p>
+<p name="mobStateParamNCelChgMed">5</p>
+<p name="mobStateParamTEval">0</p>
+<p name="mobStateParamTHystNorm">0</p>
+<p name="multLoadMeasRrm">2</p>
+<p name="multLoadMeasRrmEicic">2</p>
+<p name="nbrCongHandling">1</p>
+<p name="offsetFreqIntra">15</p>
+<p name="operationalState">1</p>
+<p name="p0NomPucch">-106</p>
+<p name="p0NomPusch">-80</p>
+<p name="pMax">430</p>
+<p name="pagingNb">2</p>
+<p name="pdcchAggDefUe">2</p>
+<p name="pdcchAggMsg4">8</p>
+<p name="pdcchAggPaging">4</p>
+<p name="pdcchAggPreamb">4</p>
+<p name="pdcchAggRaresp">4</p>
+<p name="pdcchAggSib">4</p>
+<p name="pdcchAlpha">16</p>
+<p name="pdcchCqiShift">-20</p>
+<p name="pdcchHarqTargetBler">10</p>
+<p name="pdcchUlDlBal">10</p>
+<p name="periodicCqiFeedbackType">0</p>
+<p name="phyCellId">435</p>
+<p name="prachCS">10</p>
+<p name="prachConfIndex">3</p>
+<p name="prachFreqOff">3</p>
+<p name="prachHsFlag">0</p>
+<p name="preventCellActivation">0</p>
+<p name="prsBandwidth">50</p>
+<p name="prsConfigurationIndex">151</p>
+<p name="prsNumDlFrames">1</p>
+<p name="prsPowerBoost">0</p>
+<p name="pucchNAnCs">0</p>
+<p name="puschAckOffI">10</p>
+<p name="puschCqiOffI">8</p>
+<p name="puschRiOffI">10</p>
+<p name="qci1ProtectionTimer">40</p>
+<p name="qci1DlTargetBler">100</p>
+<p name="qci1HarqMaxTrDl">5</p>
+<p name="qci1HarqMaxTrUl">5</p>
+<p name="qci1ReconStopTimer">10</p>
+<p name="qci1ThroughputFactorDl">16</p>
+<p name="qci1ThroughputFactorUl">16</p>
+<p name="qci1UlTargetBler">10</p>
+<p name="raContResoT">7</p>
+<p name="raLargeMcsUl">5</p>
+<p name="raMsgPoffGrB">4</p>
+<p name="raNondedPreamb">9</p>
+<p name="raPreGrASize">7</p>
+<p name="raRespWinSize">7</p>
+<p name="raSmallMcsUl">5</p>
+<p name="raSmallVolUl">0</p>
+<p name="rcAmbrMgnDl">103</p>
+<p name="rcAmbrMgnUl">102</p>
+<p name="rcEnableDl">0</p>
+<p name="rcEnableUl">0</p>
+<p name="redBwEnDl">0</p>
+<p name="redBwMaxRbDl">50</p>
+<p name="redBwRpaEnUl">0</p>
+<p name="rfSensitivity">0</p>
+<p name="rootSeqIndex">528</p>
+<p name="rttCellIdInfo">0</p>
+<p name="rttCsfbType">1</p>
+<p name="sbHoMode">0</p>
+<p name="scellBadChQualThr">6</p>
+<p name="scellGoodChQualThr">8</p>
+<p name="scellNotDetectableThr">4</p>
+<p name="selectOuterPuschRegion">0</p>
+<p name="shortPeriodScellChEst">200</p>
+<p name="srsActivation">1</p>
+<p name="srsPwrOffset">7</p>
+<p name="syncSigTxMode">1</p>
+<p name="t302">8000</p>
+<p name="t304InterRAT">4</p>
+<p name="t304InterRATGsm">3</p>
+<p name="t304IntraLte">6</p>
+<p name="t304eNaccGsm">5</p>
+<p name="t320">180</p>
+<p name="tExtendedWait">300</p>
+<p name="tLoadMeasX2">10000</p>
+<p name="tLoadMeasX2Eicic">2000</p>
+<p name="tPageCorrInt">3000</p>
+<p name="tPeriodicBsr">1</p>
+<p name="tPeriodicPhr">1</p>
+<p name="tPingPong">3000</p>
+<p name="tProhibitPhr">0</p>
+<p name="tReTxBsrTime">0</p>
+<p name="tStoreUeCntxt">2000</p>
+<p name="taMaxOffset">52</p>
+<p name="taTimer">6</p>
+<p name="taTimerMargin">2000</p>
+<p name="tac">32090</p>
+<p name="targetSelMethod">0</p>
+<p name="threshold1">70</p>
+<p name="threshold2GERAN">21</p>
+<p name="threshold2GERANQci1">25</p>
+<p name="threshold2InterFreq">22</p>
+<p name="threshold2InterFreqQci1">35</p>
+<p name="threshold2Wcdma">22</p>
+<p name="threshold2WcdmaQci1">27</p>
+<p name="threshold2a">24</p>
+<p name="threshold2aQci1">46</p>
+<p name="threshold3">24</p>
+<p name="threshold3a">26</p>
+<p name="threshold4">19</p>
+<p name="timeToTriggerSfHigh">1</p>
+<p name="timeToTriggerSfMedium">1</p>
+<p name="ttiBundlingBlerTarget">12</p>
+<p name="ttiBundlingBlerThreshold">15</p>
+<p name="ttiBundlingSinrThreshold">10</p>
+<p name="ttibOperMode">1</p>
+<p name="ulChBw">100</p>
+<p name="ulCombinationMode">1</p>
+<p name="ulRsCs">0</p>
+<p name="ulTargetBler">10</p>
+<p name="ulamcAllTbEn">1</p>
+<p name="ulamcSwitchPer">30</p>
+<p name="ulatbEventPer">1</p>
+<p name="ulpcAlpha">7</p>
+<p name="p0NomPuschIAw">-100</p>
+<p name="ulpcCEBalanceIAw">8</p>
+<p name="ulpcMinQualIAw">5</p>
+<p name="ulpcMinWaitForPc">50</p>
+<p name="ulpcRefPwrIAw">-218</p>
+<p name="ulpcLowlevCch">-118</p>
+<p name="ulpcLowqualCch">-1</p>
+<p name="ulpcUplevCch">-113</p>
+<p name="ulpcUpqualCch">2</p>
+<p name="ulpcLowlevSch">-103</p>
+<p name="ulpcLowqualSch">0</p>
+<p name="ulpcUplevSch">-88</p>
+<p name="ulpcUpqualSch">20</p>
+<p name="ulpcRarespTpc">2</p>
+<p name="ulpcReadPeriod">50</p>
+<p name="ulsFdPrbAssignAlg">2</p>
+<p name="ulsMaxPacketAgg">2</p>
+<p name="ulsMinRbPerUe">3</p>
+<p name="ulsMinTbs">72</p>
+<p name="ulsNumSchedAreaUl">6</p>
+<p name="ulsSchedMethod">1</p>
+<p name="upperMarginCio">10</p>
+</managedObject>
+<managedObject class="NOKLTE:LNCEL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/LNBTS-33162/LNCEL-4" id="786644" vendor="NSN" timeStamp="2019-03-30T00:07:41.000+02:00">
+<defaults name="System" id="2"/>
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<p name="mcc">602</p>
+<p name="mnc">04</p>
+<p name="a1TimeToTriggerDeactInterMeas">9</p>
+<p name="a2RedirectQci1">0</p>
+<p name="a2TimeToTriggerActGERANMeas">9</p>
+<p name="a2TimeToTriggerActInterFreqMeas">9</p>
+<p name="a2TimeToTriggerActWcdmaMeas">9</p>
+<p name="a2TimeToTriggerRedirect">7</p>
+<p name="a3Offset">6</p>
+<p name="a3ReportInterval">3</p>
+<p name="a3TimeToTrigger">8</p>
+<p name="a5ReportInterval">3</p>
+<p name="a5TimeToTrigger">8</p>
+<p name="act1TxIn2Tx">0</p>
+<p name="actAutoPucchAlloc">0</p>
+<p name="actCombSuperCell">0</p>
+<p name="actCsiRsSubFNonTM9Sch">0</p>
+<p name="actDataSessionProf">0</p>
+<p name="actDlsOldtc">0</p>
+<p name="actDlsVoicePacketAgg">0</p>
+<p name="actDrx">1</p>
+<p name="actDrxDuringMeasGap">0</p>
+<p name="actEicic">0</p>
+<p name="actFastMimoSwitch">0</p>
+<p name="actLdPdcch">1</p>
+<p name="actLiquidCell">0</p>
+<p name="actMicroDtx">0</p>
+<p name="actModulationSchemeDl">2</p>
+<p name="actModulationSchemeUL">2</p>
+<p name="actNBIoT">0</p>
+<p name="actNbrForNonGbrBearers">0</p>
+<p name="actNoIntraBandIFMeasurements">0</p>
+<p name="actOlLaPdcch">1</p>
+<p name="actOtdoa">0</p>
+<p name="actProactSchedBySrb">1</p>
+<p name="actPrsTxDiv">0</p>
+<p name="actPuschMask">0</p>
+<p name="actQci1RfDrx">0</p>
+<p name="actQci1eVTT">0</p>
+<p name="actRepeaterMode">0</p>
+<p name="actSdlc">0</p>
+<p name="actSixIfMeasurements">0</p>
+<p name="actSmartDrx">1</p>
+<p name="actSrb1Robustness">0</p>
+<p name="actSuperCell">0</p>
+<p name="actTtiBundling">0</p>
+<p name="actUciOnlyGrants">0</p>
+<p name="actUlGrpHop">0</p>
+<p name="actUlLnkAdp">6</p>
+<p name="actUlMultiCluster">0</p>
+<p name="actUlpcMethod">7</p>
+<p name="actUlpcRachPwrCtrl">0</p>
+<p name="actVoipCovBoost">0</p>
+<p name="addGbrTrafficRrHo">5</p>
+<p name="addGbrTrafficTcHo">10</p>
+<p name="addNumDrbRadioReasHo">35</p>
+<p name="addNumDrbTimeCriticalHo">60</p>
+<p name="addNumQci1DrbRadioReasHo">15</p>
+<p name="addNumQci1DrbTimeCriticalHo">20</p>
+<p name="addSpectrEmi">1</p>
+<p name="administrativeState">1</p>
+<p name="allowPbIndexZero">1</p>
+<p name="amleMaxNumHo">10</p>
+<p name="amlePeriodLoadExchange">1000</p>
+<p name="blankedPucch">0</p>
+<p name="caPoolId">1</p>
+<p name="cellIndOffServ">15</p>
+<p name="cellName">LALXN33162_4</p>
+<p name="cellPwrRedForMBMS">0</p>
+<p name="cellResourceSharingMode">0</p>
+<p name="cellType">3</p>
+<p name="cqiAperEnable">1</p>
+<p name="cqiAperMode">1</p>
+<p name="cqiPerSbCycK">1</p>
+<p name="cqiPerSimulAck">1</p>
+<p name="creCqiAvg">50</p>
+<p name="csgType">0</p>
+<p name="dFpucchF1">1</p>
+<p name="dFpucchF1b">0</p>
+<p name="dFpucchF2">1</p>
+<p name="dFpucchF2a">1</p>
+<p name="dFpucchF2b">1</p>
+<p name="dSrTransMax">4</p>
+<p name="defPagCyc">1</p>
+<p name="deltaLbCioMargin">0</p>
+<p name="deltaPreMsg3">1</p>
+<p name="deltaTfEnabled">0</p>
+<p name="dlCellPwrRed">0</p>
+<p name="dlChBw">50</p>
+<p name="dlInterferenceEnable">0</p>
+<p name="dlInterferenceLevel">0</p>
+<p name="dlInterferenceModulation">0</p>
+<p name="dlMimoMode">40</p>
+<p name="dlOlqcEnable">1</p>
+<p name="dlPathlossChg">1</p>
+<p name="dlPcfichBoost">0</p>
+<p name="dlPhichBoost">30</p>
+<p name="dlRsBoost">1300</p>
+<p name="dlTargetBler">100</p>
+<p name="dlamcCqiDef">2</p>
+<p name="dlamcEnable">1</p>
+<p name="dlpcMimoComp">0</p>
+<p name="dlsDciCch">0</p>
+<p name="dlsOldtcTarget">98</p>
+<p name="dlsUsePartPrb">2</p>
+<p name="drxProfile101drxInactivityT">10</p>
+<p name="drxProfile101drxLongCycle">160</p>
+<p name="drxProfile101drxOnDuratT">6</p>
+<p name="drxProfile101drxProfileIndex">101</p>
+<p name="drxProfile101drxProfilePriority">30</p>
+<p name="drxProfile101drxRetransT">4</p>
+<p name="drxProfile102drxInactivityT">20</p>
+<p name="drxProfile102drxLongCycle">1280</p>
+<p name="drxProfile102drxOnDuratT">10</p>
+<p name="drxProfile102drxProfileIndex">102</p>
+<p name="drxProfile102drxProfilePriority">30</p>
+<p name="drxProfile102drxRetransT">16</p>
+<p name="drxProfile103drxInactivityT">10</p>
+<p name="drxProfile103drxLongCycle">160</p>
+<p name="drxProfile103drxOnDuratT">6</p>
+<p name="drxProfile103drxProfileIndex">103</p>
+<p name="drxProfile103drxProfilePriority">30</p>
+<p name="drxProfile103drxRetransT">16</p>
+<p name="eIcicAbsAdaptationBeta">10</p>
+<p name="eIcicAbsAdaptationThreshold0To1">5</p>
+<p name="eIcicAbsDeltaAdjustment">6</p>
+<p name="eIcicAbsPatChangeDelayT">40</p>
+<p name="eIcicCreDelta">2</p>
+<p name="eIcicMaxMutePattern">4</p>
+<p name="eIcicMaxNumPartners">10</p>
+<p name="eIcicMp0DelayT">10</p>
+<p name="eIcicPartnerCacAbsTarget">10</p>
+<p name="eIcicPartnerCacTarget">10</p>
+<p name="eUlLaAtbPeriod">30</p>
+<p name="eUlLaBlerAveWin">30</p>
+<p name="eUlLaDeltaMcs">3</p>
+<p name="eUlLaLowMcsThr">1</p>
+<p name="eUlLaLowPrbThr">1</p>
+<p name="eUlLaPrbIncDecFactor">16</p>
+<p name="earfcnDL">1535</p>
+<p name="earfcnUL">19535</p>
+<p name="ecidMeasSupervisionTimer">3000</p>
+<p name="enableAmcPdcch">1</p>
+<p name="enableBetterCellHo">1</p>
+<p name="enableCovHo">0</p>
+<p name="enableLowAgg">1</p>
+<p name="enablePcPdcch">1</p>
+<p name="energySavingState">0</p>
+<p name="eutraCelId">8489476</p>
+<p name="expectedCellSize">3</p>
+<p name="fUlLAAtbTrigThr">-2</p>
+<p name="filterCoeff">4</p>
+<p name="filterCoefficientCSFBCpichEcn0">4</p>
+<p name="filterCoefficientCSFBCpichRscp">4</p>
+<p name="filterCoefficientCpichEcn0">4</p>
+<p name="filterCoefficientCpichRscp">4</p>
+<p name="filterCoefficientRSRP">4</p>
+<p name="filterCoefficientRSRQ">4</p>
+<p name="filterCoefficientRSSI">2</p>
+<p name="gbrCongHandling">2</p>
+<p name="grpAssigPUSCH">0</p>
+<p name="harqMaxMsg3">5</p>
+<p name="harqMaxTrDl">7</p>
+<p name="harqMaxTrUlTtiBundling">12</p>
+<p name="harqMaxTxUl">10</p>
+<p name="hopModePusch">0</p>
+<p name="hysA3Offset">2</p>
+<p name="hysThreshold2GERAN">0</p>
+<p name="hysThreshold2InterFreq">0</p>
+<p name="hysThreshold2Wcdma">0</p>
+<p name="hysThreshold2a">0</p>
+<p name="hysThreshold3">0</p>
+<p name="hysThreshold4">0</p>
+<p name="iFServiceBasedHoRetryTimer">60</p>
+<p name="idleLBCapThresh">100</p>
+<p name="idleLBPercCaUe">0</p>
+<p name="idleLBPercentageOfUes">0</p>
+<p name="ilReacTimerUl">20</p>
+<p name="inactivityTimer">10</p>
+<p name="iniMcsDl">4</p>
+<p name="iniMcsUl">5</p>
+<p name="iniPrbsUl">10</p>
+<p name="lbLoadFilCoeff">4</p>
+<p name="lcrId">4</p>
+<p name="longPeriodScellChEst">2000</p>
+<p name="lowerMarginCio">-10</p>
+<p name="maxBitrateDl">300000</p>
+<p name="maxBitrateUl">75000</p>
+<p name="maxCrPgDl">12</p>
+<p name="maxCrRa4Dl">12</p>
+<p name="maxCrRaDl">12</p>
+<p name="maxCrSibDl">26</p>
+<p name="maxGbrTrafficLimit">75</p>
+<p name="maxNbrTrafficLimit">90</p>
+<p name="maxNrSymPdcch">3</p>
+<p name="maxNumActDrb">660</p>
+<p name="maxNumActUE">220</p>
+<p name="maxNumCaConfUe">50</p>
+<p name="maxNumCaConfUe3c">20</p>
+<p name="maxNumCaConfUeDc">50</p>
+<p name="maxNumQci1Drb">100</p>
+<p name="maxNumScells">1</p>
+<p name="maxNumUeDl">7</p>
+<p name="maxNumUeUl">7</p>
+<p name="maxPrbsPerNbrUe">30</p>
+<p name="mbrSelector">0</p>
+<p name="measQuantityCSFBUtra">1</p>
+<p name="measQuantityUtra">0</p>
+<p name="mimoClCqiThD">70</p>
+<p name="mimoClCqiThU">80</p>
+<p name="mimoClRiThD">28</p>
+<p name="mimoClRiThU">32</p>
+<p name="mimoOlCqiThD">70</p>
+<p name="mimoOlCqiThU">80</p>
+<p name="mimoOlRiThD">28</p>
+<p name="mimoOlRiThU">32</p>
+<p name="minBitrateDl">30</p>
+<p name="minBitrateUl">30</p>
+<p name="mobStateParamNCelChgHgh">10</p>
+<p name="mobStateParamNCelChgMed">5</p>
+<p name="mobStateParamTEval">0</p>
+<p name="mobStateParamTHystNorm">0</p>
+<p name="multLoadMeasRrm">2</p>
+<p name="multLoadMeasRrmEicic">2</p>
+<p name="nbrCongHandling">1</p>
+<p name="offsetFreqIntra">15</p>
+<p name="operationalState">1</p>
+<p name="p0NomPucch">-106</p>
+<p name="p0NomPusch">-80</p>
+<p name="pMax">460</p>
+<p name="pagingNb">2</p>
+<p name="pdcchAggDefUe">2</p>
+<p name="pdcchAggMsg4">8</p>
+<p name="pdcchAggPaging">4</p>
+<p name="pdcchAggPreamb">4</p>
+<p name="pdcchAggRaresp">4</p>
+<p name="pdcchAggSib">4</p>
+<p name="pdcchAlpha">16</p>
+<p name="pdcchCqiShift">-20</p>
+<p name="pdcchHarqTargetBler">10</p>
+<p name="pdcchUlDlBal">10</p>
+<p name="periodicCqiFeedbackType">0</p>
+<p name="phyCellId">436</p>
+<p name="prachCS">10</p>
+<p name="prachConfIndex">3</p>
+<p name="prachFreqOff">3</p>
+<p name="prachHsFlag">0</p>
+<p name="preventCellActivation">0</p>
+<p name="prsBandwidth">25</p>
+<p name="prsConfigurationIndex">151</p>
+<p name="prsNumDlFrames">1</p>
+<p name="prsPowerBoost">0</p>
+<p name="pucchNAnCs">0</p>
+<p name="puschAckOffI">10</p>
+<p name="puschCqiOffI">8</p>
+<p name="puschRiOffI">10</p>
+<p name="qci1ProtectionTimer">40</p>
+<p name="qci1DlTargetBler">100</p>
+<p name="qci1HarqMaxTrDl">5</p>
+<p name="qci1HarqMaxTrUl">5</p>
+<p name="qci1ReconStopTimer">10</p>
+<p name="qci1ThroughputFactorDl">16</p>
+<p name="qci1ThroughputFactorUl">16</p>
+<p name="qci1UlTargetBler">10</p>
+<p name="raContResoT">7</p>
+<p name="raLargeMcsUl">5</p>
+<p name="raMsgPoffGrB">4</p>
+<p name="raNondedPreamb">9</p>
+<p name="raPreGrASize">7</p>
+<p name="raRespWinSize">7</p>
+<p name="raSmallMcsUl">5</p>
+<p name="raSmallVolUl">0</p>
+<p name="rcAmbrMgnDl">103</p>
+<p name="rcAmbrMgnUl">102</p>
+<p name="rcEnableDl">0</p>
+<p name="rcEnableUl">0</p>
+<p name="redBwEnDl">0</p>
+<p name="redBwMaxRbDl">25</p>
+<p name="redBwRpaEnUl">0</p>
+<p name="rfSensitivity">0</p>
+<p name="rootSeqIndex">666</p>
+<p name="rttCellIdInfo">0</p>
+<p name="rttCsfbType">1</p>
+<p name="sbHoMode">0</p>
+<p name="scellBadChQualThr">6</p>
+<p name="scellGoodChQualThr">8</p>
+<p name="scellNotDetectableThr">4</p>
+<p name="selectOuterPuschRegion">0</p>
+<p name="shortPeriodScellChEst">200</p>
+<p name="srsActivation">1</p>
+<p name="srsPwrOffset">7</p>
+<p name="syncSigTxMode">1</p>
+<p name="t302">8000</p>
+<p name="t304InterRAT">4</p>
+<p name="t304InterRATGsm">3</p>
+<p name="t304IntraLte">6</p>
+<p name="t304eNaccGsm">5</p>
+<p name="t320">180</p>
+<p name="tExtendedWait">300</p>
+<p name="tLoadMeasX2">10000</p>
+<p name="tLoadMeasX2Eicic">2000</p>
+<p name="tPageCorrInt">3000</p>
+<p name="tPeriodicBsr">1</p>
+<p name="tPeriodicPhr">1</p>
+<p name="tPingPong">3000</p>
+<p name="tProhibitPhr">0</p>
+<p name="tReTxBsrTime">0</p>
+<p name="tStoreUeCntxt">2000</p>
+<p name="taMaxOffset">52</p>
+<p name="taTimer">6</p>
+<p name="taTimerMargin">2000</p>
+<p name="tac">32090</p>
+<p name="targetSelMethod">0</p>
+<p name="threshold1">70</p>
+<p name="threshold2GERAN">27</p>
+<p name="threshold2GERANQci1">25</p>
+<p name="threshold2InterFreq">30</p>
+<p name="threshold2InterFreqQci1">35</p>
+<p name="threshold2Wcdma">28</p>
+<p name="threshold2WcdmaQci1">27</p>
+<p name="threshold2a">32</p>
+<p name="threshold2aQci1">46</p>
+<p name="threshold3">24</p>
+<p name="threshold3a">26</p>
+<p name="threshold4">26</p>
+<p name="timeToTriggerSfHigh">1</p>
+<p name="timeToTriggerSfMedium">1</p>
+<p name="ttiBundlingBlerTarget">12</p>
+<p name="ttiBundlingBlerThreshold">15</p>
+<p name="ttiBundlingSinrThreshold">10</p>
+<p name="ttibOperMode">1</p>
+<p name="ulChBw">50</p>
+<p name="ulCombinationMode">1</p>
+<p name="ulRsCs">0</p>
+<p name="ulTargetBler">10</p>
+<p name="ulamcAllTbEn">1</p>
+<p name="ulamcSwitchPer">30</p>
+<p name="ulatbEventPer">1</p>
+<p name="ulpcAlpha">7</p>
+<p name="p0NomPuschIAw">-100</p>
+<p name="ulpcCEBalanceIAw">8</p>
+<p name="ulpcMinQualIAw">5</p>
+<p name="ulpcMinWaitForPc">50</p>
+<p name="ulpcRefPwrIAw">-200</p>
+<p name="ulpcLowlevCch">-118</p>
+<p name="ulpcLowqualCch">-1</p>
+<p name="ulpcUplevCch">-113</p>
+<p name="ulpcUpqualCch">2</p>
+<p name="ulpcLowlevSch">-103</p>
+<p name="ulpcLowqualSch">0</p>
+<p name="ulpcUplevSch">-88</p>
+<p name="ulpcUpqualSch">20</p>
+<p name="ulpcRarespTpc">2</p>
+<p name="ulpcReadPeriod">50</p>
+<p name="ulsFdPrbAssignAlg">2</p>
+<p name="ulsMaxPacketAgg">2</p>
+<p name="ulsMinRbPerUe">3</p>
+<p name="ulsMinTbs">104</p>
+<p name="ulsNumSchedAreaUl">6</p>
+<p name="ulsSchedMethod">1</p>
+<p name="upperMarginCio">10</p>
+</managedObject>
+<managedObject class="NOKLTE:LNCEL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/LNBTS-33162/LNCEL-5" id="786642" vendor="NSN" timeStamp="2019-03-30T00:07:41.000+02:00">
+<defaults name="System" id="2"/>
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">40</p>
+<p name="mcc">602</p>
+<p name="mnc">04</p>
+<p name="a1TimeToTriggerDeactInterMeas">9</p>
+<p name="a2RedirectQci1">0</p>
+<p name="a2TimeToTriggerActGERANMeas">9</p>
+<p name="a2TimeToTriggerActInterFreqMeas">9</p>
+<p name="a2TimeToTriggerActWcdmaMeas">9</p>
+<p name="a2TimeToTriggerRedirect">7</p>
+<p name="a3Offset">6</p>
+<p name="a3ReportInterval">3</p>
+<p name="a3TimeToTrigger">8</p>
+<p name="a5ReportInterval">3</p>
+<p name="a5TimeToTrigger">8</p>
+<p name="act1TxIn2Tx">0</p>
+<p name="actAutoPucchAlloc">0</p>
+<p name="actCombSuperCell">0</p>
+<p name="actCsiRsSubFNonTM9Sch">0</p>
+<p name="actDataSessionProf">0</p>
+<p name="actDlsOldtc">0</p>
+<p name="actDlsVoicePacketAgg">0</p>
+<p name="actDrx">1</p>
+<p name="actDrxDuringMeasGap">0</p>
+<p name="actEicic">0</p>
+<p name="actFastMimoSwitch">0</p>
+<p name="actLdPdcch">1</p>
+<p name="actLiquidCell">0</p>
+<p name="actMicroDtx">0</p>
+<p name="actModulationSchemeDl">2</p>
+<p name="actModulationSchemeUL">2</p>
+<p name="actNBIoT">0</p>
+<p name="actNbrForNonGbrBearers">0</p>
+<p name="actNoIntraBandIFMeasurements">0</p>
+<p name="actOlLaPdcch">1</p>
+<p name="actOtdoa">0</p>
+<p name="actProactSchedBySrb">1</p>
+<p name="actPrsTxDiv">0</p>
+<p name="actPuschMask">0</p>
+<p name="actQci1RfDrx">0</p>
+<p name="actQci1eVTT">0</p>
+<p name="actRepeaterMode">0</p>
+<p name="actSdlc">0</p>
+<p name="actSixIfMeasurements">0</p>
+<p name="actSmartDrx">1</p>
+<p name="actSrb1Robustness">0</p>
+<p name="actSuperCell">0</p>
+<p name="actTtiBundling">0</p>
+<p name="actUciOnlyGrants">0</p>
+<p name="actUlGrpHop">0</p>
+<p name="actUlLnkAdp">6</p>
+<p name="actUlMultiCluster">0</p>
+<p name="actUlpcMethod">7</p>
+<p name="actUlpcRachPwrCtrl">0</p>
+<p name="actVoipCovBoost">0</p>
+<p name="addGbrTrafficRrHo">5</p>
+<p name="addGbrTrafficTcHo">10</p>
+<p name="addNumDrbRadioReasHo">35</p>
+<p name="addNumDrbTimeCriticalHo">60</p>
+<p name="addNumQci1DrbRadioReasHo">15</p>
+<p name="addNumQci1DrbTimeCriticalHo">20</p>
+<p name="addSpectrEmi">1</p>
+<p name="administrativeState">1</p>
+<p name="allowPbIndexZero">1</p>
+<p name="amleMaxNumHo">10</p>
+<p name="amlePeriodLoadExchange">1000</p>
+<p name="blankedPucch">0</p>
+<p name="caPoolId">2</p>
+<p name="cellIndOffServ">15</p>
+<p name="cellName">LALXN33162_5</p>
+<p name="cellPwrRedForMBMS">0</p>
+<p name="cellResourceSharingMode">0</p>
+<p name="cellType">3</p>
+<p name="cqiAperEnable">1</p>
+<p name="cqiAperMode">1</p>
+<p name="cqiPerSbCycK">1</p>
+<p name="cqiPerSimulAck">1</p>
+<p name="creCqiAvg">50</p>
+<p name="csgType">0</p>
+<p name="dFpucchF1">1</p>
+<p name="dFpucchF1b">0</p>
+<p name="dFpucchF2">1</p>
+<p name="dFpucchF2a">1</p>
+<p name="dFpucchF2b">1</p>
+<p name="dSrTransMax">4</p>
+<p name="defPagCyc">1</p>
+<p name="deltaLbCioMargin">0</p>
+<p name="deltaPreMsg3">1</p>
+<p name="deltaTfEnabled">0</p>
+<p name="dlCellPwrRed">0</p>
+<p name="dlChBw">50</p>
+<p name="dlInterferenceEnable">0</p>
+<p name="dlInterferenceLevel">0</p>
+<p name="dlInterferenceModulation">0</p>
+<p name="dlMimoMode">40</p>
+<p name="dlOlqcEnable">1</p>
+<p name="dlPathlossChg">1</p>
+<p name="dlPcfichBoost">0</p>
+<p name="dlPhichBoost">30</p>
+<p name="dlRsBoost">1300</p>
+<p name="dlTargetBler">100</p>
+<p name="dlamcCqiDef">2</p>
+<p name="dlamcEnable">1</p>
+<p name="dlpcMimoComp">0</p>
+<p name="dlsDciCch">0</p>
+<p name="dlsOldtcTarget">98</p>
+<p name="dlsUsePartPrb">2</p>
+<p name="drxProfile101drxInactivityT">10</p>
+<p name="drxProfile101drxLongCycle">160</p>
+<p name="drxProfile101drxOnDuratT">6</p>
+<p name="drxProfile101drxProfileIndex">101</p>
+<p name="drxProfile101drxProfilePriority">30</p>
+<p name="drxProfile101drxRetransT">4</p>
+<p name="drxProfile102drxInactivityT">20</p>
+<p name="drxProfile102drxLongCycle">1280</p>
+<p name="drxProfile102drxOnDuratT">10</p>
+<p name="drxProfile102drxProfileIndex">102</p>
+<p name="drxProfile102drxProfilePriority">30</p>
+<p name="drxProfile102drxRetransT">16</p>
+<p name="drxProfile103drxInactivityT">10</p>
+<p name="drxProfile103drxLongCycle">160</p>
+<p name="drxProfile103drxOnDuratT">6</p>
+<p name="drxProfile103drxProfileIndex">103</p>
+<p name="drxProfile103drxProfilePriority">30</p>
+<p name="drxProfile103drxRetransT">16</p>
+<p name="eIcicAbsAdaptationBeta">10</p>
+<p name="eIcicAbsAdaptationThreshold0To1">5</p>
+<p name="eIcicAbsDeltaAdjustment">6</p>
+<p name="eIcicAbsPatChangeDelayT">40</p>
+<p name="eIcicCreDelta">2</p>
+<p name="eIcicMaxMutePattern">4</p>
+<p name="eIcicMaxNumPartners">10</p>
+<p name="eIcicMp0DelayT">10</p>
+<p name="eIcicPartnerCacAbsTarget">10</p>
+<p name="eIcicPartnerCacTarget">10</p>
+<p name="eUlLaAtbPeriod">30</p>
+<p name="eUlLaBlerAveWin">30</p>
+<p name="eUlLaDeltaMcs">3</p>
+<p name="eUlLaLowMcsThr">1</p>
+<p name="eUlLaLowPrbThr">1</p>
+<p name="eUlLaPrbIncDecFactor">16</p>
+<p name="earfcnDL">1535</p>
+<p name="earfcnUL">19535</p>
+<p name="ecidMeasSupervisionTimer">3000</p>
+<p name="enableAmcPdcch">1</p>
+<p name="enableBetterCellHo">1</p>
+<p name="enableCovHo">0</p>
+<p name="enableLowAgg">1</p>
+<p name="enablePcPdcch">1</p>
+<p name="energySavingState">0</p>
+<p name="eutraCelId">8489477</p>
+<p name="expectedCellSize">3</p>
+<p name="fUlLAAtbTrigThr">-2</p>
+<p name="filterCoeff">4</p>
+<p name="filterCoefficientCSFBCpichEcn0">4</p>
+<p name="filterCoefficientCSFBCpichRscp">4</p>
+<p name="filterCoefficientCpichEcn0">4</p>
+<p name="filterCoefficientCpichRscp">4</p>
+<p name="filterCoefficientRSRP">4</p>
+<p name="filterCoefficientRSRQ">4</p>
+<p name="filterCoefficientRSSI">2</p>
+<p name="gbrCongHandling">2</p>
+<p name="grpAssigPUSCH">0</p>
+<p name="harqMaxMsg3">5</p>
+<p name="harqMaxTrDl">7</p>
+<p name="harqMaxTrUlTtiBundling">12</p>
+<p name="harqMaxTxUl">10</p>
+<p name="hopModePusch">0</p>
+<p name="hysA3Offset">2</p>
+<p name="hysThreshold2GERAN">0</p>
+<p name="hysThreshold2InterFreq">0</p>
+<p name="hysThreshold2Wcdma">0</p>
+<p name="hysThreshold2a">0</p>
+<p name="hysThreshold3">0</p>
+<p name="hysThreshold4">0</p>
+<p name="iFServiceBasedHoRetryTimer">60</p>
+<p name="idleLBCapThresh">100</p>
+<p name="idleLBPercCaUe">0</p>
+<p name="idleLBPercentageOfUes">0</p>
+<p name="ilReacTimerUl">20</p>
+<p name="inactivityTimer">10</p>
+<p name="iniMcsDl">4</p>
+<p name="iniMcsUl">5</p>
+<p name="iniPrbsUl">10</p>
+<p name="lbLoadFilCoeff">4</p>
+<p name="lcrId">5</p>
+<p name="longPeriodScellChEst">2000</p>
+<p name="lowerMarginCio">-10</p>
+<p name="maxBitrateDl">300000</p>
+<p name="maxBitrateUl">75000</p>
+<p name="maxCrPgDl">12</p>
+<p name="maxCrRa4Dl">12</p>
+<p name="maxCrRaDl">12</p>
+<p name="maxCrSibDl">26</p>
+<p name="maxGbrTrafficLimit">75</p>
+<p name="maxNbrTrafficLimit">90</p>
+<p name="maxNrSymPdcch">3</p>
+<p name="maxNumActDrb">660</p>
+<p name="maxNumActUE">220</p>
+<p name="maxNumCaConfUe">50</p>
+<p name="maxNumCaConfUe3c">20</p>
+<p name="maxNumCaConfUeDc">50</p>
+<p name="maxNumQci1Drb">100</p>
+<p name="maxNumScells">1</p>
+<p name="maxNumUeDl">7</p>
+<p name="maxNumUeUl">7</p>
+<p name="maxPrbsPerNbrUe">30</p>
+<p name="mbrSelector">0</p>
+<p name="measQuantityCSFBUtra">1</p>
+<p name="measQuantityUtra">0</p>
+<p name="mimoClCqiThD">70</p>
+<p name="mimoClCqiThU">80</p>
+<p name="mimoClRiThD">28</p>
+<p name="mimoClRiThU">32</p>
+<p name="mimoOlCqiThD">70</p>
+<p name="mimoOlCqiThU">80</p>
+<p name="mimoOlRiThD">28</p>
+<p name="mimoOlRiThU">32</p>
+<p name="minBitrateDl">30</p>
+<p name="minBitrateUl">30</p>
+<p name="mobStateParamNCelChgHgh">10</p>
+<p name="mobStateParamNCelChgMed">5</p>
+<p name="mobStateParamTEval">0</p>
+<p name="mobStateParamTHystNorm">0</p>
+<p name="multLoadMeasRrm">2</p>
+<p name="multLoadMeasRrmEicic">2</p>
+<p name="nbrCongHandling">1</p>
+<p name="offsetFreqIntra">15</p>
+<p name="operationalState">1</p>
+<p name="p0NomPucch">-106</p>
+<p name="p0NomPusch">-80</p>
+<p name="pMax">460</p>
+<p name="pagingNb">2</p>
+<p name="pdcchAggDefUe">2</p>
+<p name="pdcchAggMsg4">8</p>
+<p name="pdcchAggPaging">4</p>
+<p name="pdcchAggPreamb">4</p>
+<p name="pdcchAggRaresp">4</p>
+<p name="pdcchAggSib">4</p>
+<p name="pdcchAlpha">16</p>
+<p name="pdcchCqiShift">-20</p>
+<p name="pdcchHarqTargetBler">10</p>
+<p name="pdcchUlDlBal">10</p>
+<p name="periodicCqiFeedbackType">0</p>
+<p name="phyCellId">437</p>
+<p name="prachCS">10</p>
+<p name="prachConfIndex">3</p>
+<p name="prachFreqOff">3</p>
+<p name="prachHsFlag">0</p>
+<p name="preventCellActivation">0</p>
+<p name="prsBandwidth">25</p>
+<p name="prsConfigurationIndex">151</p>
+<p name="prsNumDlFrames">1</p>
+<p name="prsPowerBoost">0</p>
+<p name="pucchNAnCs">0</p>
+<p name="puschAckOffI">10</p>
+<p name="puschCqiOffI">8</p>
+<p name="puschRiOffI">10</p>
+<p name="qci1ProtectionTimer">40</p>
+<p name="qci1DlTargetBler">100</p>
+<p name="qci1HarqMaxTrDl">5</p>
+<p name="qci1HarqMaxTrUl">5</p>
+<p name="qci1ReconStopTimer">10</p>
+<p name="qci1ThroughputFactorDl">16</p>
+<p name="qci1ThroughputFactorUl">16</p>
+<p name="qci1UlTargetBler">10</p>
+<p name="raContResoT">7</p>
+<p name="raLargeMcsUl">5</p>
+<p name="raMsgPoffGrB">4</p>
+<p name="raNondedPreamb">9</p>
+<p name="raPreGrASize">7</p>
+<p name="raRespWinSize">7</p>
+<p name="raSmallMcsUl">5</p>
+<p name="raSmallVolUl">0</p>
+<p name="rcAmbrMgnDl">103</p>
+<p name="rcAmbrMgnUl">102</p>
+<p name="rcEnableDl">0</p>
+<p name="rcEnableUl">0</p>
+<p name="redBwEnDl">0</p>
+<p name="redBwMaxRbDl">25</p>
+<p name="redBwRpaEnUl">0</p>
+<p name="rfSensitivity">0</p>
+<p name="rootSeqIndex">534</p>
+<p name="rttCellIdInfo">0</p>
+<p name="rttCsfbType">1</p>
+<p name="sbHoMode">0</p>
+<p name="scellBadChQualThr">6</p>
+<p name="scellGoodChQualThr">8</p>
+<p name="scellNotDetectableThr">4</p>
+<p name="selectOuterPuschRegion">0</p>
+<p name="shortPeriodScellChEst">200</p>
+<p name="srsActivation">1</p>
+<p name="srsPwrOffset">7</p>
+<p name="syncSigTxMode">1</p>
+<p name="t302">8000</p>
+<p name="t304InterRAT">4</p>
+<p name="t304InterRATGsm">3</p>
+<p name="t304IntraLte">6</p>
+<p name="t304eNaccGsm">5</p>
+<p name="t320">180</p>
+<p name="tExtendedWait">300</p>
+<p name="tLoadMeasX2">10000</p>
+<p name="tLoadMeasX2Eicic">2000</p>
+<p name="tPageCorrInt">3000</p>
+<p name="tPeriodicBsr">1</p>
+<p name="tPeriodicPhr">1</p>
+<p name="tPingPong">3000</p>
+<p name="tProhibitPhr">0</p>
+<p name="tReTxBsrTime">0</p>
+<p name="tStoreUeCntxt">2000</p>
+<p name="taMaxOffset">52</p>
+<p name="taTimer">6</p>
+<p name="taTimerMargin">2000</p>
+<p name="tac">32090</p>
+<p name="targetSelMethod">0</p>
+<p name="threshold1">70</p>
+<p name="threshold2GERAN">22</p>
+<p name="threshold2GERANQci1">25</p>
+<p name="threshold2InterFreq">28</p>
+<p name="threshold2InterFreqQci1">35</p>
+<p name="threshold2Wcdma">23</p>
+<p name="threshold2WcdmaQci1">27</p>
+<p name="threshold2a">30</p>
+<p name="threshold2aQci1">46</p>
+<p name="threshold3">24</p>
+<p name="threshold3a">26</p>
+<p name="threshold4">21</p>
+<p name="timeToTriggerSfHigh">1</p>
+<p name="timeToTriggerSfMedium">1</p>
+<p name="ttiBundlingBlerTarget">12</p>
+<p name="ttiBundlingBlerThreshold">15</p>
+<p name="ttiBundlingSinrThreshold">10</p>
+<p name="ttibOperMode">1</p>
+<p name="ulChBw">50</p>
+<p name="ulCombinationMode">1</p>
+<p name="ulRsCs">0</p>
+<p name="ulTargetBler">10</p>
+<p name="ulamcAllTbEn">1</p>
+<p name="ulamcSwitchPer">30</p>
+<p name="ulatbEventPer">1</p>
+<p name="ulpcAlpha">7</p>
+<p name="p0NomPuschIAw">-100</p>
+<p name="ulpcCEBalanceIAw">8</p>
+<p name="ulpcMinQualIAw">5</p>
+<p name="ulpcMinWaitForPc">50</p>
+<p name="ulpcRefPwrIAw">-218</p>
+<p name="ulpcLowlevCch">-118</p>
+<p name="ulpcLowqualCch">-1</p>
+<p name="ulpcUplevCch">-113</p>
+<p name="ulpcUpqualCch">2</p>
+<p name="ulpcLowlevSch">-103</p>
+<p name="ulpcLowqualSch">0</p>
+<p name="ulpcUplevSch">-88</p>
+<p name="ulpcUpqualSch">20</p>
+<p name="ulpcRarespTpc">2</p>
+<p name="ulpcReadPeriod">50</p>
+<p name="ulsFdPrbAssignAlg">2</p>
+<p name="ulsMaxPacketAgg">2</p>
+<p name="ulsMinRbPerUe">3</p>
+<p name="ulsMinTbs">104</p>
+<p name="ulsNumSchedAreaUl">6</p>
+<p name="ulsSchedMethod">1</p>
+<p name="upperMarginCio">10</p>
+</managedObject>
+<managedObject class="NOKLTE:LNCEL" version="FL16A" distName="PLMN-PLMN/MRBTS-33162/LNBTS-33162/LNCEL-6" id="786627" vendor="NSN" timeStamp="2019-03-30T00:07:41.000+02:00">
+<defaults name="System" id="2"/>
+<extension name="system_parameters">
+<p name="$modifier">CMDACC</p>
+<p name="$state">operational</p>
+</extension>
+<p name="angle">50</p>
+<p name="mcc">602</p>
+<p name="mnc">04</p>
+<p name="a1TimeToTriggerDeactInterMeas">9</p>
+<p name="a2RedirectQci1">0</p>
+<p name="a2TimeToTriggerActGERANMeas">9</p>
+<p name="a2TimeToTriggerActInterFreqMeas">9</p>
+<p name="a2TimeToTriggerActWcdmaMeas">9</p>
+<p name="a2TimeToTriggerRedirect">7</p>
+<p name="a3Offset">6</p>
+<p name="a3ReportInterval">3</p>
+<p name="a3TimeToTrigger">8</p>
+<p name="a5ReportInterval">3</p>
+<p name="a5TimeToTrigger">8</p>
+<p name="act1TxIn2Tx">0</p>
+<p name="actAutoPucchAlloc">0</p>
+<p name="actCombSuperCell">0</p>
+<p name="actCsiRsSubFNonTM9Sch">0</p>
+<p name="actDataSessionProf">0</p>
+<p name="actDlsOldtc">0</p>
+<p name="actDlsVoicePacketAgg">0</p>
+<p name="actDrx">1</p>
+<p name="actDrxDuringMeasGap">0</p>
+<p name="actEicic">0</p>
+<p name="actFastMimoSwitch">0</p>
+<p name="actLdPdcch">1</p>
+<p name="actLiquidCell">0</p>
+<p name="actMicroDtx">0</p>
+<p name="actModulationSchemeDl">2</p>
+<p name="actModulationSchemeUL">2</p>
+<p name="actNBIoT">0</p>
+<p name="actNbrForNonGbrBearers">0</p>
+<p name="actNoIntraBandIFMeasurements">0</p>
+<p name="actOlLaPdcch">1</p>
+<p name="actOtdoa">0</p>
+<p name="actProactSchedBySrb">1</p>
+<p name="actPrsTxDiv">0</p>
+<p name="actPuschMask">0</p>
+<p name="actQci1RfDrx">0</p>
+<p name="actQci1eVTT">0</p>
+<p name="actRepeaterMode">0</p>
+<p name="actSdlc">0</p>
+<p name="actSixIfMeasurements">0</p>
+<p name="actSmartDrx">1</p>
+<p name="actSrb1Robustness">0</p>
+<p name="actSuperCell">0</p>
+<p name="actTtiBundling">0</p>
+<p name="actUciOnlyGrants">0</p>
+<p name="actUlGrpHop">0</p>
+<p name="actUlLnkAdp">6</p>
+<p name="actUlMultiCluster">0</p>
+<p name="actUlpcMethod">7</p>
+<p name="actUlpcRachPwrCtrl">0</p>
+<p name="actVoipCovBoost">0</p>
+<p name="addGbrTrafficRrHo">5</p>
+<p name="addGbrTrafficTcHo">10</p>
+<p name="addNumDrbRadioReasHo">35</p>
+<p name="addNumDrbTimeCriticalHo">60</p>
+<p name="addNumQci1DrbRadioReasHo">15</p>
+<p name="addNumQci1DrbTimeCriticalHo">20</p>
+<p name="addSpectrEmi">1</p>
+<p name="administrativeState">1</p>
+<p name="allowPbIndexZero">1</p>
+<p name="amleMaxNumHo">10</p>
+<p name="amlePeriodLoadExchange">1000</p>
+<p name="blankedPucch">0</p>
+<p name="caPoolId">3</p>
+<p name="cellIndOffServ">15</p>
+<p name="cellName">LALXN33162_6</p>
+<p name="cellPwrRedForMBMS">0</p>
+<p name="cellResourceSharingMode">0</p>
+<p name="cellType">3</p>
+<p name="cqiAperEnable">1</p>
+<p name="cqiAperMode">1</p>
+<p name="cqiPerSbCycK">1</p>
+<p name="cqiPerSimulAck">1</p>
+<p name="creCqiAvg">50</p>
+<p name="csgType">0</p>
+<p name="dFpucchF1">1</p>
+<p name="dFpucchF1b">0</p>
+<p name="dFpucchF2">1</p>
+<p name="dFpucchF2a">1</p>
+<p name="dFpucchF2b">1</p>
+<p name="dSrTransMax">4</p>
+<p name="defPagCyc">1</p>
+<p name="deltaLbCioMargin">0</p>
+<p name="deltaPreMsg3">1</p>
+<p name="deltaTfEnabled">0</p>
+<p name="dlCellPwrRed">0</p>
+<p name="dlChBw">50</p>
+<p name="dlInterferenceEnable">0</p>
+<p name="dlInterferenceLevel">0</p>
+<p name="dlInterferenceModulation">0</p>
+<p name="dlMimoMode">40</p>
+<p name="dlOlqcEnable">1</p>
+<p name="dlPathlossChg">1</p>
+<p name="dlPcfichBoost">0</p>
+<p name="dlPhichBoost">30</p>
+<p name="dlRsBoost">1000</p>
+<p name="dlTargetBler">100</p>
+<p name="dlamcCqiDef">2</p>
+<p name="dlamcEnable">1</p>
+<p name="dlpcMimoComp">0</p>
+<p name="dlsDciCch">0</p>
+<p name="dlsOldtcTarget">98</p>
+<p name="dlsUsePartPrb">2</p>
+<p name="drxProfile101drxInactivityT">10</p>
+<p name="drxProfile101drxLongCycle">160</p>
+<p name="drxProfile101drxOnDuratT">6</p>
+<p name="drxProfile101drxProfileIndex">101</p>
+<p name="drxProfile101drxProfilePriority">30</p>
+<p name="drxProfile101drxRetransT">4</p>
+<p name="drxProfile102drxInactivityT">20</p>
+<p name="drxProfile102drxLongCycle">1280</p>
+<p name="drxProfile102drxOnDuratT">10</p>
+<p name="drxProfile102drxProfileIndex">102</p>
+<p name="drxProfile102drxProfilePriority">30</p>
+<p name="drxProfile102drxRetransT">16</p>
+<p name="drxProfile103drxInactivityT">10</p>
+<p name="drxProfile103drxLongCycle">160</p>
+<p name="drxProfile103drxOnDuratT">6</p>
+<p name="drxProfile103drxProfileIndex">103</p>
+<p name="drxProfile103drxProfilePriority">30</p>
+<p name="drxProfile103drxRetransT">16</p>
+<p name="eIcicAbsAdaptationBeta">10</p>
+<p name="eIcicAbsAdaptationThreshold0To1">5</p>
+<p name="eIcicAbsDeltaAdjustment">6</p>
+<p name="eIcicAbsPatChangeDelayT">40</p>
+<p name="eIcicCreDelta">2</p>
+<p name="eIcicMaxMutePattern">4</p>
+<p name="eIcicMaxNumPartners">10</p>
+<p name="eIcicMp0DelayT">10</p>
+<p name="eIcicPartnerCacAbsTarget">10</p>
+<p name="eIcicPartnerCacTarget">10</p>
+<p name="eUlLaAtbPeriod">30</p>
+<p name="eUlLaBlerAveWin">30</p>
+<p name="eUlLaDeltaMcs">3</p>
+<p name="eUlLaLowMcsThr">1</p>
+<p name="eUlLaLowPrbThr">1</p>
+<p name="eUlLaPrbIncDecFactor">16</p>
+<p name="earfcnDL">1535</p>
+<p name="earfcnUL">19535</p>
+<p name="ecidMeasSupervisionTimer">3000</p>
+<p name="enableAmcPdcch">1</p>
+<p name="enableBetterCellHo">1</p>
+<p name="enableCovHo">0</p>
+<p name="enableLowAgg">1</p>
+<p name="enablePcPdcch">1</p>
+<p name="energySavingState">0</p>
+<p name="eutraCelId">8489478</p>
+<p name="expectedCellSize">3</p>
+<p name="fUlLAAtbTrigThr">-2</p>
+<p name="filterCoeff">4</p>
+<p name="filterCoefficientCSFBCpichEcn0">4</p>
+<p name="filterCoefficientCSFBCpichRscp">4</p>
+<p name="filterCoefficientCpichEcn0">4</p>
+<p name="filterCoefficientCpichRscp">4</p>
+<p name="filterCoefficientRSRP">4</p>
+<p name="filterCoefficientRSRQ">4</p>
+<p name="filterCoefficientRSSI">2</p>
+<p name="gbrCongHandling">2</p>
+<p name="grpAssigPUSCH">0</p>
+<p name="harqMaxMsg3">5</p>
+<p name="harqMaxTrDl">7</p>
+<p name="harqMaxTrUlTtiBundling">12</p>
+<p name="harqMaxTxUl">10</p>
+<p name="hopModePusch">0</p>
+<p name="hysA3Offset">2</p>
+<p name="hysThreshold2GERAN">0</p>
+<p name="hysThreshold2InterFreq">0</p>
+<p name="hysThreshold2Wcdma">0</p>
+<p name="hysThreshold2a">0</p>
+<p name="hysThreshold3">0</p>
+<p name="hysThreshold4">0</p>
+<p name="iFServiceBasedHoRetryTimer">60</p>
+<p name="idleLBCapThresh">100</p>
+<p name="idleLBPercCaUe">0</p>
+<p name="idleLBPercentageOfUes">0</p>
+<p name="ilReacTimerUl">5</p>
+<p name="inactivityTimer">10</p>
+<p name="iniMcsDl">4</p>
+<p name="iniMcsUl">5</p>
+<p name="iniPrbsUl">10</p>
+<p name="lbLoadFilCoeff">4</p>
+<p name="lcrId">6</p>
+<p name="longPeriodScellChEst">2000</p>
+<p name="lowerMarginCio">-10</p>
+<p name="maxBitrateDl">300000</p>
+<p name="maxBitrateUl">75000</p>
+<p name="maxCrPgDl">12</p>
+<p name="maxCrRa4Dl">12</p>
+<p name="maxCrRaDl">12</p>
+<p name="maxCrSibDl">26</p>
+<p name="maxGbrTrafficLimit">75</p>
+<p name="maxNbrTrafficLimit">90</p>
+<p name="maxNrSymPdcch">3</p>
+<p name="maxNumActDrb">660</p>
+<p name="maxNumActUE">220</p>
+<p name="maxNumCaConfUe">50</p>
+<p name="maxNumCaConfUe3c">20</p>
+<p name="maxNumCaConfUeDc">50</p>
+<p name="maxNumQci1Drb">100</p>
+<p name="maxNumScells">1</p>
+<p name="maxNumUeDl">7</p>
+<p name="maxNumUeUl">7</p>
+<p name="maxPrbsPerNbrUe">30</p>
+<p name="mbrSelector">0</p>
+<p name="measQuantityCSFBUtra">1</p>
+<p name="measQuantityUtra">0</p>
+<p name="mimoClCqiThD">70</p>
+<p name="mimoClCqiThU">80</p>
+<p name="mimoClRiThD">28</p>
+<p name="mimoClRiThU">32</p>
+<p name="mimoOlCqiThD">70</p>
+<p name="mimoOlCqiThU">80</p>
+<p name="mimoOlRiThD">28</p>
+<p name="mimoOlRiThU">32</p>
+<p name="minBitrateDl">30</p>
+<p name="minBitrateUl">30</p>
+<p name="mobStateParamNCelChgHgh">10</p>
+<p name="mobStateParamNCelChgMed">5</p>
+<p name="mobStateParamTEval">0</p>
+<p name="mobStateParamTHystNorm">0</p>
+<p name="multLoadMeasRrm">2</p>
+<p name="multLoadMeasRrmEicic">2</p>
+<p name="nbrCongHandling">1</p>
+<p name="offsetFreqIntra">15</p>
+<p name="operationalState">1</p>
+<p name="p0NomPucch">-106</p>
+<p name="p0NomPusch">-80</p>
+<p name="pMax">460</p>
+<p name="pagingNb">2</p>
+<p name="pdcchAggDefUe">2</p>
+<p name="pdcchAggMsg4">8</p>
+<p name="pdcchAggPaging">4</p>
+<p name="pdcchAggPreamb">4</p>
+<p name="pdcchAggRaresp">4</p>
+<p name="pdcchAggSib">4</p>
+<p name="pdcchAlpha">16</p>
+<p name="pdcchCqiShift">-5</p>
+<p name="pdcchHarqTargetBler">10</p>
+<p name="pdcchUlDlBal">10</p>
+<p name="periodicCqiFeedbackType">0</p>
+<p name="phyCellId">435</p>
+<p name="prachCS">10</p>
+<p name="prachConfIndex">3</p>
+<p name="prachFreqOff">3</p>
+<p name="prachHsFlag">0</p>
+<p name="preventCellActivation">0</p>
+<p name="prsBandwidth">25</p>
+<p name="prsConfigurationIndex">151</p>
+<p name="prsNumDlFrames">1</p>
+<p name="prsPowerBoost">0</p>
+<p name="pucchNAnCs">0</p>
+<p name="puschAckOffI">10</p>
+<p name="puschCqiOffI">8</p>
+<p name="puschRiOffI">10</p>
+<p name="qci1ProtectionTimer">40</p>
+<p name="qci1DlTargetBler">100</p>
+<p name="qci1HarqMaxTrDl">5</p>
+<p name="qci1HarqMaxTrUl">5</p>
+<p name="qci1ReconStopTimer">10</p>
+<p name="qci1ThroughputFactorDl">16</p>
+<p name="qci1ThroughputFactorUl">16</p>
+<p name="qci1UlTargetBler">10</p>
+<p name="raContResoT">7</p>
+<p name="raLargeMcsUl">5</p>
+<p name="raMsgPoffGrB">4</p>
+<p name="raNondedPreamb">9</p>
+<p name="raPreGrASize">7</p>
+<p name="raRespWinSize">7</p>
+<p name="raSmallMcsUl">5</p>
+<p name="raSmallVolUl">0</p>
+<p name="rcAmbrMgnDl">103</p>
+<p name="rcAmbrMgnUl">102</p>
+<p name="rcEnableDl">0</p>
+<p name="rcEnableUl">0</p>
+<p name="redBwEnDl">0</p>
+<p name="redBwMaxRbDl">25</p>
+<p name="redBwRpaEnUl">0</p>
+<p name="rfSensitivity">0</p>
+<p name="rootSeqIndex">528</p>
+<p name="rttCellIdInfo">0</p>
+<p name="rttCsfbType">1</p>
+<p name="sbHoMode">0</p>
+<p name="scellBadChQualThr">6</p>
+<p name="scellGoodChQualThr">8</p>
+<p name="scellNotDetectableThr">4</p>
+<p name="selectOuterPuschRegion">0</p>
+<p name="shortPeriodScellChEst">200</p>
+<p name="srsActivation">1</p>
+<p name="srsPwrOffset">7</p>
+<p name="syncSigTxMode">1</p>
+<p name="t302">8000</p>
+<p name="t304InterRAT">4</p>
+<p name="t304InterRATGsm">3</p>
+<p name="t304IntraLte">6</p>
+<p name="t304eNaccGsm">5</p>
+<p name="t320">180</p>
+<p name="tExtendedWait">300</p>
+<p name="tLoadMeasX2">10000</p>
+<p name="tLoadMeasX2Eicic">2000</p>
+<p name="tPageCorrInt">3000</p>
+<p name="tPeriodicBsr">1</p>
+<p name="tPeriodicPhr">1</p>
+<p name="tPingPong">3000</p>
+<p name="tProhibitPhr">0</p>
+<p name="tReTxBsrTime">0</p>
+<p name="tStoreUeCntxt">2000</p>
+<p name="taMaxOffset">52</p>
+<p name="taTimer">6</p>
+<p name="taTimerMargin">2000</p>
+<p name="tac">32090</p>
+<p name="targetSelMethod">0</p>
+<p name="threshold1">70</p>
+<p name="threshold2GERAN">22</p>
+<p name="threshold2GERANQci1">25</p>
+<p name="threshold2InterFreq">28</p>
+<p name="threshold2InterFreqQci1">35</p>
+<p name="threshold2Wcdma">23</p>
+<p name="threshold2WcdmaQci1">27</p>
+<p name="threshold2a">30</p>
+<p name="threshold2aQci1">46</p>
+<p name="threshold3">24</p>
+<p name="threshold3a">26</p>
+<p name="threshold4">21</p>
+<p name="timeToTriggerSfHigh">1</p>
+<p name="timeToTriggerSfMedium">1</p>
+<p name="ttiBundlingBlerTarget">12</p>
+<p name="ttiBundlingBlerThreshold">15</p>
+<p name="ttiBundlingSinrThreshold">10</p>
+<p name="ttibOperMode">1</p>
+<p name="ulChBw">50</p>
+<p name="ulCombinationMode">1</p>
+<p name="ulRsCs">0</p>
+<p name="ulTargetBler">10</p>
+<p name="ulamcAllTbEn">1</p>
+<p name="ulamcSwitchPer">30</p>
+<p name="ulatbEventPer">1</p>
+<p name="ulpcAlpha">7</p>
+<p name="p0NomPuschIAw">-100</p>
+<p name="ulpcCEBalanceIAw">8</p>
+<p name="ulpcMinQualIAw">5</p>
+<p name="ulpcMinWaitForPc">50</p>
+<p name="ulpcRefPwrIAw">-218</p>
+<p name="ulpcLowlevCch">-118</p>
+<p name="ulpcLowqualCch">-1</p>
+<p name="ulpcUplevCch">-113</p>
+<p name="ulpcUpqualCch">2</p>
+<p name="ulpcLowlevSch">-103</p>
+<p name="ulpcLowqualSch">0</p>
+<p name="ulpcUplevSch">-88</p>
+<p name="ulpcUpqualSch">20</p>
+<p name="ulpcRarespTpc">2</p>
+<p name="ulpcReadPeriod">50</p>
+<p name="ulsFdPrbAssignAlg">2</p>
+<p name="ulsMaxPacketAgg">2</p>
+<p name="ulsMinRbPerUe">3</p>
+<p name="ulsMinTbs">104</p>
+<p name="ulsNumSchedAreaUl">6</p>
+<p name="ulsSchedMethod">1</p>
+<p name="upperMarginCio">10</p>
+</managedObject>
+</cmData>
+</raml>
